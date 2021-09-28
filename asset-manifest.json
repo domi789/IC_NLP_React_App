@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/IC_NLP_React_App/static/css/main.8bfd00d1.chunk.css",
-    "main.js": "/IC_NLP_React_App/static/js/main.ba07448e.chunk.js",
-    "main.js.map": "/IC_NLP_React_App/static/js/main.ba07448e.chunk.js.map",
+    "main.js": "/IC_NLP_React_App/static/js/main.bdb70939.chunk.js",
+    "main.js.map": "/IC_NLP_React_App/static/js/main.bdb70939.chunk.js.map",
     "runtime-main.js": "/IC_NLP_React_App/static/js/runtime-main.39242e19.js",
     "runtime-main.js.map": "/IC_NLP_React_App/static/js/runtime-main.39242e19.js.map",
     "static/js/2.8f97b695.chunk.js": "/IC_NLP_React_App/static/js/2.8f97b695.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.39242e19.js",
     "static/js/2.8f97b695.chunk.js",
     "static/css/main.8bfd00d1.chunk.css",
-    "static/js/main.ba07448e.chunk.js"
+    "static/js/main.bdb70939.chunk.js"
   ]
 }
