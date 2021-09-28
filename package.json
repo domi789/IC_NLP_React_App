@@ -45,5 +45,6 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://domi789.github.io/IC_NLP_React_App"
+  "homepage": "https://domi789.github.io/IC_NLP_React_App",
+  "devDependencies": {}
 }

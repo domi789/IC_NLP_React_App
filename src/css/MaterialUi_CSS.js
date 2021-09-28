@@ -54,8 +54,8 @@ const customStylesLayout = makeStyles({
     width: 280,
   },
   appbar: {
-    width: `calc(100% - 280px)`,
-    paddingLeft: 20,
+    // width: `calc(100% - 280px)`,
+    paddingLeft: 300,
   },
 });
 export { customStylesLayout };
