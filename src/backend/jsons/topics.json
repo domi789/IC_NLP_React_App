@@ -1,0 +1,1214 @@
+[
+  {
+    "texts_id": 1,
+    "topics": "China",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/China"
+  },
+  {
+    "texts_id": 1,
+    "topics": "EBITDA",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/Earnings_before_interest,_taxes,_depreciation_and_amortization"
+  },
+  {
+    "texts_id": 1,
+    "topics": "St.Galler Kantonalbank",
+    "NA.": 0.0001,
+    "NA..1": "https://de.wikipedia.org/wiki/St.Galler_Kantonalbank"
+  },
+  {
+    "texts_id": 1,
+    "topics": "KBV",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/P/B_ratio"
+  },
+  {
+    "texts_id": 1,
+    "topics": "S&P500",
+    "NA.": 0.0002,
+    "NA..1": "https://en.wikipedia.org/wiki/S&P_500"
+  },
+  {
+    "texts_id": 1,
+    "topics": "Covid-19",
+    "NA.": 0.0003,
+    "NA..1": "https://en.wikipedia.org/wiki/COVID-19"
+  },
+  {
+    "texts_id": 1,
+    "topics": "Bloomberg",
+    "NA.": 0.0003,
+    "NA..1": "https://en.wikipedia.org/wiki/Bloomberg_Television"
+  },
+  {
+    "texts_id": 1,
+    "topics": "Energie Finanzen",
+    "NA.": 0.0005,
+    "NA..1": "https://en.wikipedia.org/wiki/Finance"
+  },
+  {
+    "texts_id": 1,
+    "topics": "Dow Jones",
+    "NA.": 0.0012,
+    "NA..1": "https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average"
+  },
+  {
+    "texts_id": 1,
+    "topics": "US",
+    "NA.": 0.0017,
+    "NA..1": "https://en.wikipedia.org/wiki/United_States"
+  },
+  {
+    "texts_id": 1,
+    "topics": "Europa",
+    "NA.": 0.0032,
+    "NA..1": "https://en.wikipedia.org/wiki/Europe"
+  },
+  {
+    "texts_id": 2,
+    "topics": "OPEC",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/OPEC"
+  },
+  {
+    "texts_id": 2,
+    "topics": "Social Media",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/Social_media"
+  },
+  {
+    "texts_id": 2,
+    "topics": "St.Galler Kantonalbank",
+    "NA.": 0.0001,
+    "NA..1": "https://de.wikipedia.org/wiki/St.Galler_Kantonalbank"
+  },
+  {
+    "texts_id": 2,
+    "topics": "EBITDA",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/Earnings_before_interest,_taxes,_depreciation_and_amortization"
+  },
+  {
+    "texts_id": 2,
+    "topics": "Europa",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/Europe"
+  },
+  {
+    "texts_id": 2,
+    "topics": "Bloomberg",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/Bloomberg_Television"
+  },
+  {
+    "texts_id": 2,
+    "topics": "Corona",
+    "NA.": 0.0002,
+    "NA..1": "https://en.wikipedia.org/wiki/Coronavirus"
+  },
+  {
+    "texts_id": 2,
+    "topics": "Amazon",
+    "NA.": 0.0003,
+    "NA..1": "https://en.wikipedia.org/wiki/Amazon_(company)"
+  },
+  {
+    "texts_id": 2,
+    "topics": "Energie Industrie",
+    "NA.": 0.0008,
+    "NA..1": "https://en.wikipedia.org/wiki/Energy_industry"
+  },
+  {
+    "texts_id": 2,
+    "topics": "US",
+    "NA.": 0.0009,
+    "NA..1": "https://en.wikipedia.org/wiki/United_States"
+  },
+  {
+    "texts_id": 2,
+    "topics": "S&P500",
+    "NA.": 0.001,
+    "NA..1": "https://en.wikipedia.org/wiki/S&P_500"
+  },
+  {
+    "texts_id": 2,
+    "topics": "SMI",
+    "NA.": 0.0013,
+    "NA..1": "https://en.wikipedia.org/wiki/Swiss_Market_Index"
+  },
+  {
+    "texts_id": 2,
+    "topics": "Nasdaq",
+    "NA.": 0.0028,
+    "NA..1": "https://en.wikipedia.org/wiki/Nasdaq"
+  },
+  {
+    "texts_id": 2,
+    "topics": "Schweizer",
+    "NA.": 0.0116,
+    "NA..1": "https://en.wikipedia.org/wiki/Switzerland"
+  },
+  {
+    "texts_id": 4,
+    "topics": "Bloomberg",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/Bloomberg_Television"
+  },
+  {
+    "texts_id": 4,
+    "topics": "St.Galler Kantonalbank",
+    "NA.": 0.0001,
+    "NA..1": "https://de.wikipedia.org/wiki/St.Galler_Kantonalbank"
+  },
+  {
+    "texts_id": 4,
+    "topics": "EBITDA",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/Earnings_before_interest,_taxes,_depreciation_and_amortization"
+  },
+  {
+    "texts_id": 4,
+    "topics": "S&P500",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/S&P_500"
+  },
+  {
+    "texts_id": 4,
+    "topics": "Digitalsteuer",
+    "NA.": 0.0001,
+    "NA..1": "https://de.wikipedia.org/wiki/Digitalsteuer"
+  },
+  {
+    "texts_id": 4,
+    "topics": "Investmentbanking",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/Investment_banking"
+  },
+  {
+    "texts_id": 4,
+    "topics": "Corona",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/Coronavirus"
+  },
+  {
+    "texts_id": 4,
+    "topics": "Social Media",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/Social_media"
+  },
+  {
+    "texts_id": 4,
+    "topics": "Bloomberg",
+    "NA.": 0.0002,
+    "NA..1": "https://en.wikipedia.org/wiki/Bloomberg_L.P."
+  },
+  {
+    "texts_id": 4,
+    "topics": "Nasdaq",
+    "NA.": 0.0002,
+    "NA..1": "https://en.wikipedia.org/wiki/Nasdaq"
+  },
+  {
+    "texts_id": 4,
+    "topics": "Energie Quelle",
+    "NA.": 0.0002,
+    "NA..1": "https://de.wikipedia.org/wiki/Energiequelle"
+  },
+  {
+    "texts_id": 4,
+    "topics": "Reflation Trade",
+    "NA.": 0.0006,
+    "NA..1": "https://en.wikipedia.org/wiki/Reflation"
+  },
+  {
+    "texts_id": 4,
+    "topics": "SMI",
+    "NA.": 0.0009,
+    "NA..1": "https://en.wikipedia.org/wiki/Swiss_Market_Index"
+  },
+  {
+    "texts_id": 4,
+    "topics": "europäische",
+    "NA.": 0.001,
+    "NA..1": "https://en.wikipedia.org/wiki/Europe"
+  },
+  {
+    "texts_id": 4,
+    "topics": "Schweizer",
+    "NA.": 0.0012,
+    "NA..1": "https://en.wikipedia.org/wiki/Switzerland"
+  },
+  {
+    "texts_id": 4,
+    "topics": "EuroStoxx50",
+    "NA.": 0.0015,
+    "NA..1": "https://en.wikipedia.org/wiki/EURO_STOXX_50"
+  },
+  {
+    "texts_id": 4,
+    "topics": "Finanzen Energie",
+    "NA.": 0.0017,
+    "NA..1": "https://en.wikipedia.org/wiki/Finance"
+  },
+  {
+    "texts_id": 4,
+    "topics": "US",
+    "NA.": 0.0019,
+    "NA..1": "https://en.wikipedia.org/wiki/United_States"
+  },
+  {
+    "texts_id": 5,
+    "topics": "St.Galler Kantonalbank",
+    "NA.": 0.0001,
+    "NA..1": "https://de.wikipedia.org/wiki/St.Galler_Kantonalbank"
+  },
+  {
+    "texts_id": 5,
+    "topics": "EBITDA",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/Earnings_before_interest,_taxes,_depreciation_and_amortization"
+  },
+  {
+    "texts_id": 5,
+    "topics": "Investmentbanking",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/Investment_banking"
+  },
+  {
+    "texts_id": 5,
+    "topics": "Schweiz",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/Switzerland"
+  },
+  {
+    "texts_id": 5,
+    "topics": "KBV",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/P/B_ratio"
+  },
+  {
+    "texts_id": 5,
+    "topics": "Corona",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/Coronavirus"
+  },
+  {
+    "texts_id": 5,
+    "topics": "Digitalsteuer",
+    "NA.": 0.0001,
+    "NA..1": "https://de.wikipedia.org/wiki/Digitalsteuer"
+  },
+  {
+    "texts_id": 5,
+    "topics": "Europa",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/Europe"
+  },
+  {
+    "texts_id": 5,
+    "topics": "Social Media",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/Social_media"
+  },
+  {
+    "texts_id": 5,
+    "topics": "Bloomberg",
+    "NA.": 0.0002,
+    "NA..1": "https://en.wikipedia.org/wiki/Bloomberg_L.P."
+  },
+  {
+    "texts_id": 5,
+    "topics": "Energie Quelle",
+    "NA.": 0.0002,
+    "NA..1": "https://de.wikipedia.org/wiki/Energiequelle"
+  },
+  {
+    "texts_id": 5,
+    "topics": "S&P500",
+    "NA.": 0.0003,
+    "NA..1": "https://en.wikipedia.org/wiki/S&P_500"
+  },
+  {
+    "texts_id": 5,
+    "topics": "Reflation Trade",
+    "NA.": 0.0003,
+    "NA..1": "https://en.wikipedia.org/wiki/Reflation"
+  },
+  {
+    "texts_id": 5,
+    "topics": "Energie Finanzen",
+    "NA.": 0.0008,
+    "NA..1": "https://en.wikipedia.org/wiki/Finance"
+  },
+  {
+    "texts_id": 5,
+    "topics": "amerikanischen",
+    "NA.": 0.0013,
+    "NA..1": "https://en.wikipedia.org/wiki/United_States"
+  },
+  {
+    "texts_id": 5,
+    "topics": "Chinas",
+    "NA.": 0.0018,
+    "NA..1": "https://en.wikipedia.org/wiki/China"
+  },
+  {
+    "texts_id": 6,
+    "topics": "EU",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/European_Union"
+  },
+  {
+    "texts_id": 6,
+    "topics": "St.Galler Kantonalbank",
+    "NA.": 0.0001,
+    "NA..1": "https://de.wikipedia.org/wiki/St.Galler_Kantonalbank"
+  },
+  {
+    "texts_id": 6,
+    "topics": "Europa",
+    "NA.": 0.0002,
+    "NA..1": "https://en.wikipedia.org/wiki/Europe"
+  },
+  {
+    "texts_id": 6,
+    "topics": "Investmentbanking",
+    "NA.": 0.0002,
+    "NA..1": "https://en.wikipedia.org/wiki/Investment_banking"
+  },
+  {
+    "texts_id": 6,
+    "topics": "Untergewichten",
+    "NA.": 0.0005,
+    "NA..1": "https://en.wikipedia.org/wiki/Underweight_(stock_market)"
+  },
+  {
+    "texts_id": 6,
+    "topics": "Schweizer",
+    "NA.": 0.0005,
+    "NA..1": "https://en.wikipedia.org/wiki/Switzerland"
+  },
+  {
+    "texts_id": 6,
+    "topics": "Dow Jones",
+    "NA.": 0.0006,
+    "NA..1": "https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average"
+  },
+  {
+    "texts_id": 6,
+    "topics": "Nasdaq",
+    "NA.": 0.0007,
+    "NA..1": "https://en.wikipedia.org/wiki/Nasdaq"
+  },
+  {
+    "texts_id": 6,
+    "topics": "S&P500",
+    "NA.": 0.0008,
+    "NA..1": "https://en.wikipedia.org/wiki/S&P_500"
+  },
+  {
+    "texts_id": 6,
+    "topics": "VIX",
+    "NA.": 0.0016,
+    "NA..1": "https://en.wikipedia.org/wiki/VIX"
+  },
+  {
+    "texts_id": 6,
+    "topics": "China",
+    "NA.": 0.0032,
+    "NA..1": "https://en.wikipedia.org/wiki/China"
+  },
+  {
+    "texts_id": 6,
+    "topics": "Grossbritannien",
+    "NA.": 0.004,
+    "NA..1": "https://en.wikipedia.org/wiki/United_Kingdom"
+  },
+  {
+    "texts_id": 6,
+    "topics": "USA",
+    "NA.": 0.0048,
+    "NA..1": "https://en.wikipedia.org/wiki/United_States"
+  },
+  {
+    "texts_id": 7,
+    "topics": "Michigan",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/Michigan"
+  },
+  {
+    "texts_id": 7,
+    "topics": "Goldpreis",
+    "NA.": 0.0001,
+    "NA..1": "https://de.wikipedia.org/wiki/Goldpreis"
+  },
+  {
+    "texts_id": 7,
+    "topics": "China",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/China"
+  },
+  {
+    "texts_id": 7,
+    "topics": "Swiss Performance Index",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/Swiss_Performance_Index"
+  },
+  {
+    "texts_id": 7,
+    "topics": "DAX",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/DAX"
+  },
+  {
+    "texts_id": 7,
+    "topics": "Dow Jones",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average"
+  },
+  {
+    "texts_id": 7,
+    "topics": "Nasdaq",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/Nasdaq"
+  },
+  {
+    "texts_id": 7,
+    "topics": "Nikkei 225",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/Nikkei_225"
+  },
+  {
+    "texts_id": 7,
+    "topics": "S&P500",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/S&P_500"
+  },
+  {
+    "texts_id": 7,
+    "topics": "Fed",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/Federal_Reserve"
+  },
+  {
+    "texts_id": 7,
+    "topics": "Europäische",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/Europe"
+  },
+  {
+    "texts_id": 7,
+    "topics": "St.Galler Kantonalbank",
+    "NA.": 0.0002,
+    "NA..1": "https://de.wikipedia.org/wiki/St.Galler_Kantonalbank"
+  },
+  {
+    "texts_id": 7,
+    "topics": "Schweiz",
+    "NA.": 0.0003,
+    "NA..1": "https://en.wikipedia.org/wiki/Switzerland"
+  },
+  {
+    "texts_id": 7,
+    "topics": "EZB",
+    "NA.": 0.0003,
+    "NA..1": "https://en.wikipedia.org/wiki/European_Central_Bank"
+  },
+  {
+    "texts_id": 7,
+    "topics": "AHV",
+    "NA.": 0.0005,
+    "NA..1": "https://de.wikipedia.org/wiki/Alters-_und_Hinterlassenenversicherung"
+  },
+  {
+    "texts_id": 7,
+    "topics": "US",
+    "NA.": 0.002,
+    "NA..1": "https://en.wikipedia.org/wiki/United_States"
+  },
+  {
+    "texts_id": 7,
+    "topics": "Griechenland",
+    "NA.": 0.0061,
+    "NA..1": "https://en.wikipedia.org/wiki/Greece"
+  },
+  {
+    "texts_id": 7,
+    "topics": "Franken",
+    "NA.": 0.0137,
+    "NA..1": "https://en.wikipedia.org/wiki/Swiss_franc"
+  },
+  {
+    "texts_id": 7,
+    "topics": "SNB",
+    "NA.": 0.0365,
+    "NA..1": "https://en.wikipedia.org/wiki/Swiss_National_Bank"
+  },
+  {
+    "texts_id": 8,
+    "topics": "Goldpreis",
+    "NA.": 0.0001,
+    "NA..1": "https://de.wikipedia.org/wiki/Goldpreis"
+  },
+  {
+    "texts_id": 8,
+    "topics": "CFA",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/Chartered_Financial_Analyst"
+  },
+  {
+    "texts_id": 8,
+    "topics": "BHP",
+    "NA.": 0.0001,
+    "NA..1": "https://de.wikipedia.org/wiki/BHP_Group"
+  },
+  {
+    "texts_id": 8,
+    "topics": "Rio Tinto",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/Rio_Tinto_(corporation)"
+  },
+  {
+    "texts_id": 8,
+    "topics": "OPEC",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/OPEC"
+  },
+  {
+    "texts_id": 8,
+    "topics": "Saudi-Arabien",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/Saudi_Arabia"
+  },
+  {
+    "texts_id": 8,
+    "topics": "Vereinigten Arabischen Emirate",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/United_Arab_Emirates"
+  },
+  {
+    "texts_id": 8,
+    "topics": "Übersee",
+    "NA.": 0.0002,
+    "NA..1": "https://en.wikipedia.org/wiki/Übersee"
+  },
+  {
+    "texts_id": 8,
+    "topics": "St.Galler Kantonalbank AG",
+    "NA.": 0.0002,
+    "NA..1": "https://de.wikipedia.org/wiki/St.Galler_Kantonalbank"
+  },
+  {
+    "texts_id": 8,
+    "topics": "National Grid.",
+    "NA.": 0.0002,
+    "NA..1": "https://en.wikipedia.org/wiki/National_Grid_plc"
+  },
+  {
+    "texts_id": 8,
+    "topics": "Landis + Gyr",
+    "NA.": 0.0002,
+    "NA..1": "https://en.wikipedia.org/wiki/Landis+Gyr"
+  },
+  {
+    "texts_id": 8,
+    "topics": "China",
+    "NA.": 0.0003,
+    "NA..1": "https://en.wikipedia.org/wiki/China"
+  },
+  {
+    "texts_id": 8,
+    "topics": "Roche",
+    "NA.": 0.0005,
+    "NA..1": "https://en.wikipedia.org/wiki/Roche"
+  },
+  {
+    "texts_id": 8,
+    "topics": "Nestlé",
+    "NA.": 0.0005,
+    "NA..1": "https://en.wikipedia.org/wiki/Nestlé"
+  },
+  {
+    "texts_id": 8,
+    "topics": "Novartis",
+    "NA.": 0.0005,
+    "NA..1": "https://en.wikipedia.org/wiki/Novartis"
+  },
+  {
+    "texts_id": 8,
+    "topics": "Holcim",
+    "NA.": 0.0008,
+    "NA..1": "https://en.wikipedia.org/wiki/Holcim_Group"
+  },
+  {
+    "texts_id": 8,
+    "topics": "ABB",
+    "NA.": 0.0009,
+    "NA..1": "https://en.wikipedia.org/wiki/ABB"
+  },
+  {
+    "texts_id": 8,
+    "topics": "Credit Suisse",
+    "NA.": 0.0017,
+    "NA..1": "https://en.wikipedia.org/wiki/Credit_Suisse"
+  },
+  {
+    "texts_id": 8,
+    "topics": "Swiss Life",
+    "NA.": 0.0017,
+    "NA..1": "https://en.wikipedia.org/wiki/Swiss_Life"
+  },
+  {
+    "texts_id": 8,
+    "topics": "UBS",
+    "NA.": 0.0017,
+    "NA..1": "https://en.wikipedia.org/wiki/UBS"
+  },
+  {
+    "texts_id": 8,
+    "topics": "Swiss Re",
+    "NA.": 0.0022,
+    "NA..1": "https://en.wikipedia.org/wiki/Swiss_Re"
+  },
+  {
+    "texts_id": 8,
+    "topics": "DAX",
+    "NA.": 0.0087,
+    "NA..1": "https://en.wikipedia.org/wiki/DAX"
+  },
+  {
+    "texts_id": 8,
+    "topics": "Dow Jones",
+    "NA.": 0.0087,
+    "NA..1": "https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average"
+  },
+  {
+    "texts_id": 8,
+    "topics": "Nasdaq",
+    "NA.": 0.0087,
+    "NA..1": "https://en.wikipedia.org/wiki/Nasdaq"
+  },
+  {
+    "texts_id": 8,
+    "topics": "Nikkei 225",
+    "NA.": 0.0087,
+    "NA..1": "https://en.wikipedia.org/wiki/Nikkei_225"
+  },
+  {
+    "texts_id": 8,
+    "topics": "S&P500",
+    "NA.": 0.0087,
+    "NA..1": "https://en.wikipedia.org/wiki/S&P_500"
+  },
+  {
+    "texts_id": 8,
+    "topics": "Europäische",
+    "NA.": 0.0109,
+    "NA..1": "https://en.wikipedia.org/wiki/Europe"
+  },
+  {
+    "texts_id": 8,
+    "topics": "Schweizer",
+    "NA.": 0.0128,
+    "NA..1": "https://en.wikipedia.org/wiki/Switzerland"
+  },
+  {
+    "texts_id": 8,
+    "topics": "US",
+    "NA.": 0.0189,
+    "NA..1": "https://en.wikipedia.org/wiki/United_States"
+  },
+  {
+    "texts_id": 9,
+    "topics": "Nonfarm Payrolls",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/Nonfarm_payrolls"
+  },
+  {
+    "texts_id": 9,
+    "topics": "DAX",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/DAX"
+  },
+  {
+    "texts_id": 9,
+    "topics": "Dow Jones",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average"
+  },
+  {
+    "texts_id": 9,
+    "topics": "Nasdaq",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/Nasdaq"
+  },
+  {
+    "texts_id": 9,
+    "topics": "S&P500",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/S&P_500"
+  },
+  {
+    "texts_id": 9,
+    "topics": "FINMA",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/Swiss_Financial_Market_Supervisory_Authority"
+  },
+  {
+    "texts_id": 9,
+    "topics": "Europäische",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/Europe"
+  },
+  {
+    "texts_id": 9,
+    "topics": "Swiss Performance Index",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/Swiss_Performance_Index"
+  },
+  {
+    "texts_id": 9,
+    "topics": "US",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/United_States_dollar"
+  },
+  {
+    "texts_id": 9,
+    "topics": "Franken",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/Swiss_franc"
+  },
+  {
+    "texts_id": 9,
+    "topics": "Nikkei 225",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/Nikkei_225"
+  },
+  {
+    "texts_id": 9,
+    "topics": "Goldpreis",
+    "NA.": 0.0001,
+    "NA..1": "https://de.wikipedia.org/wiki/Goldpreis"
+  },
+  {
+    "texts_id": 9,
+    "topics": "https://www.sgkb.ch/de/boerse-maerkte/investment-talks",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/Market_(economics)"
+  },
+  {
+    "texts_id": 9,
+    "topics": "SGKB",
+    "NA.": 0.0001,
+    "NA..1": "https://de.wikipedia.org/wiki/St.Galler_Kantonalbank"
+  },
+  {
+    "texts_id": 9,
+    "topics": "Corona",
+    "NA.": 0.0003,
+    "NA..1": "https://en.wikipedia.org/wiki/Coronavirus"
+  },
+  {
+    "texts_id": 9,
+    "topics": "USA",
+    "NA.": 0.0011,
+    "NA..1": "https://en.wikipedia.org/wiki/United_States"
+  },
+  {
+    "texts_id": 9,
+    "topics": "Deutschland",
+    "NA.": 0.0015,
+    "NA..1": "https://en.wikipedia.org/wiki/Germany"
+  },
+  {
+    "texts_id": 9,
+    "topics": "Schweiz",
+    "NA.": 0.0044,
+    "NA..1": "https://en.wikipedia.org/wiki/Switzerland"
+  },
+  {
+    "texts_id": 10,
+    "topics": "Biden",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/Joe_Biden"
+  },
+  {
+    "texts_id": 10,
+    "topics": "Dow Jones",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average"
+  },
+  {
+    "texts_id": 10,
+    "topics": "Nasdaq",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/Nasdaq"
+  },
+  {
+    "texts_id": 10,
+    "topics": "S&P500",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/S&P_500"
+  },
+  {
+    "texts_id": 10,
+    "topics": "Jackson Hole",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/Jackson_Hole"
+  },
+  {
+    "texts_id": 10,
+    "topics": "https://www.sgkb.ch/de/boerse-maerkte/researchdevisen",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/Market_(economics)"
+  },
+  {
+    "texts_id": 10,
+    "topics": "DAX",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/DAX"
+  },
+  {
+    "texts_id": 10,
+    "topics": "DE",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/Germany"
+  },
+  {
+    "texts_id": 10,
+    "topics": "Nikkei 225",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/Nikkei_225"
+  },
+  {
+    "texts_id": 10,
+    "topics": "Goldpreis",
+    "NA.": 0.0001,
+    "NA..1": "https://de.wikipedia.org/wiki/Goldpreis"
+  },
+  {
+    "texts_id": 10,
+    "topics": "Europäische",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/Europe"
+  },
+  {
+    "texts_id": 10,
+    "topics": "Ostschweizer",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/Eastern_Switzerland"
+  },
+  {
+    "texts_id": 10,
+    "topics": "EU",
+    "NA.": 0.0002,
+    "NA..1": "https://en.wikipedia.org/wiki/European_Union"
+  },
+  {
+    "texts_id": 10,
+    "topics": "Powell",
+    "NA.": 0.0002,
+    "NA..1": "https://en.wikipedia.org/wiki/Jerome_Powell"
+  },
+  {
+    "texts_id": 10,
+    "topics": "EZB",
+    "NA.": 0.0002,
+    "NA..1": "https://en.wikipedia.org/wiki/European_Central_Bank"
+  },
+  {
+    "texts_id": 10,
+    "topics": "St.Galler Kantonalbank",
+    "NA.": 0.0003,
+    "NA..1": "https://de.wikipedia.org/wiki/St.Galler_Kantonalbank"
+  },
+  {
+    "texts_id": 10,
+    "topics": "Fed",
+    "NA.": 0.0003,
+    "NA..1": "https://en.wikipedia.org/wiki/Federal_Reserve"
+  },
+  {
+    "texts_id": 10,
+    "topics": "US",
+    "NA.": 0.0004,
+    "NA..1": "https://en.wikipedia.org/wiki/United_States_dollar"
+  },
+  {
+    "texts_id": 10,
+    "topics": "USA",
+    "NA.": 0.0027,
+    "NA..1": "https://en.wikipedia.org/wiki/United_States"
+  },
+  {
+    "texts_id": 10,
+    "topics": "BIP",
+    "NA.": 0.003,
+    "NA..1": "https://en.wikipedia.org/wiki/Gross_domestic_product"
+  },
+  {
+    "texts_id": 10,
+    "topics": "Schweiz",
+    "NA.": 0.0034,
+    "NA..1": "https://en.wikipedia.org/wiki/Switzerland"
+  },
+  {
+    "texts_id": 10,
+    "topics": "Corona",
+    "NA.": 0.0425,
+    "NA..1": "https://en.wikipedia.org/wiki/Coronavirus"
+  },
+  {
+    "texts_id": 11,
+    "topics": "Nordamerika",
+    "NA.": 0.0001,
+    "NA..1": "https://en.wikipedia.org/wiki/North_America"
+  },
+  {
+    "texts_id": 11,
+    "topics": "Asien",
+    "NA.": 0.0002,
+    "NA..1": "https://en.wikipedia.org/wiki/Asia"
+  },
+  {
+    "texts_id": 11,
+    "topics": "Joint Venture",
+    "NA.": 0.0002,
+    "NA..1": "https://en.wikipedia.org/wiki/Joint_venture"
+  },
+  {
+    "texts_id": 11,
+    "topics": "Onex",
+    "NA.": 0.0002,
+    "NA..1": "https://en.wikipedia.org/wiki/Onex_Corporation"
+  },
+  {
+    "texts_id": 11,
+    "topics": "Danone",
+    "NA.": 0.0005,
+    "NA..1": "https://en.wikipedia.org/wiki/Danone"
+  },
+  {
+    "texts_id": 11,
+    "topics": "Nestlé",
+    "NA.": 0.0005,
+    "NA..1": "https://en.wikipedia.org/wiki/Nestlé"
+  },
+  {
+    "texts_id": 11,
+    "topics": "Unilever",
+    "NA.": 0.0005,
+    "NA..1": "https://en.wikipedia.org/wiki/Unilever"
+  },
+  {
+    "texts_id": 11,
+    "topics": "Tetra Pak",
+    "NA.": 0.0034,
+    "NA..1": "https://en.wikipedia.org/wiki/Tetra_Pak"
+  },
+  {
+    "texts_id": 11,
+    "topics": "Neuhausen",
+    "NA.": 0.0066,
+    "NA..1": "https://en.wikipedia.org/wiki/Neuhausen_am_Rheinfall"
+  },
+  {
+    "texts_id": 11,
+    "topics": "ISIN",
+    "NA.": 0.013,
+    "NA..1": "https://en.wikipedia.org/wiki/International_Securities_Identification_Number"
+  },
+  {
+    "texts_id": 11,
+    "topics": "SIG",
+    "NA.": 0.023,
+    "NA..1": "https://en.wikipedia.org/wiki/SIG_Combibloc"
+  },
+  {
+    "texts_id": 12,
+    "topics": "Jeannine Pilloud",
+    "NA.": 0.0002,
+    "NA..1": "https://de.wikipedia.org/wiki/Jeannine_Pilloud"
+  },
+  {
+    "texts_id": 12,
+    "topics": "Australien",
+    "NA.": 0.0003,
+    "NA..1": "https://en.wikipedia.org/wiki/Australia"
+  },
+  {
+    "texts_id": 12,
+    "topics": "Südostasien",
+    "NA.": 0.0003,
+    "NA..1": "https://en.wikipedia.org/wiki/Southeast_Asia"
+  },
+  {
+    "texts_id": 12,
+    "topics": "Kanada",
+    "NA.": 0.0003,
+    "NA..1": "https://en.wikipedia.org/wiki/Canada"
+  },
+  {
+    "texts_id": 12,
+    "topics": "EBITDA",
+    "NA.": 0.0004,
+    "NA..1": "https://en.wikipedia.org/wiki/Earnings_before_interest,_taxes,_depreciation_and_amortization"
+  },
+  {
+    "texts_id": 12,
+    "topics": "USA",
+    "NA.": 0.0004,
+    "NA..1": "https://en.wikipedia.org/wiki/United_States"
+  },
+  {
+    "texts_id": 12,
+    "topics": "ISIN",
+    "NA.": 0.0217,
+    "NA..1": "https://en.wikipedia.org/wiki/International_Securities_Identification_Number"
+  },
+  {
+    "texts_id": 12,
+    "topics": "Ascom",
+    "NA.": 0.0395,
+    "NA..1": "https://en.wikipedia.org/wiki/Ascom_(company)"
+  },
+  {
+    "texts_id": 13,
+    "topics": "Jeannine Pilloud",
+    "NA.": 0.0002,
+    "NA..1": "https://de.wikipedia.org/wiki/Jeannine_Pilloud"
+  },
+  {
+    "texts_id": 13,
+    "topics": "Australien",
+    "NA.": 0.0003,
+    "NA..1": "https://en.wikipedia.org/wiki/Australia"
+  },
+  {
+    "texts_id": 13,
+    "topics": "Südostasien",
+    "NA.": 0.0003,
+    "NA..1": "https://en.wikipedia.org/wiki/Southeast_Asia"
+  },
+  {
+    "texts_id": 13,
+    "topics": "Kanada",
+    "NA.": 0.0003,
+    "NA..1": "https://en.wikipedia.org/wiki/Canada"
+  },
+  {
+    "texts_id": 13,
+    "topics": "EBITDA",
+    "NA.": 0.0004,
+    "NA..1": "https://en.wikipedia.org/wiki/Earnings_before_interest,_taxes,_depreciation_and_amortization"
+  },
+  {
+    "texts_id": 13,
+    "topics": "USA",
+    "NA.": 0.0004,
+    "NA..1": "https://en.wikipedia.org/wiki/United_States"
+  },
+  {
+    "texts_id": 13,
+    "topics": "ISIN",
+    "NA.": 0.0217,
+    "NA..1": "https://en.wikipedia.org/wiki/International_Securities_Identification_Number"
+  },
+  {
+    "texts_id": 13,
+    "topics": "Ascom",
+    "NA.": 0.0395,
+    "NA..1": "https://en.wikipedia.org/wiki/Ascom_(company)"
+  },
+  {
+    "texts_id": 14,
+    "topics": "Attraktiv",
+    "NA.": 0.0002,
+    "NA..1": "https://en.wikipedia.org/wiki/Physical_attractiveness"
+  },
+  {
+    "texts_id": 14,
+    "topics": "ISIN",
+    "NA.": 0.0134,
+    "NA..1": "https://en.wikipedia.org/wiki/International_Securities_Identification_Number"
+  },
+  {
+    "texts_id": 14,
+    "topics": "Schweiz",
+    "NA.": 0.0198,
+    "NA..1": "https://en.wikipedia.org/wiki/Switzerland"
+  },
+  {
+    "texts_id": 14,
+    "topics": "Swiss Life",
+    "NA.": 0.0365,
+    "NA..1": "https://en.wikipedia.org/wiki/Swiss_Life"
+  },
+  {
+    "texts_id": 15,
+    "topics": "Tail-Risk",
+    "NA.": 0.0002,
+    "NA..1": "https://en.wikipedia.org/wiki/Tail_risk"
+  },
+  {
+    "texts_id": 15,
+    "topics": "CET1",
+    "NA.": 0.0002,
+    "NA..1": "https://en.wikipedia.org/wiki/Tier_1_capital"
+  },
+  {
+    "texts_id": 15,
+    "topics": "Mastercard",
+    "NA.": 0.0002,
+    "NA..1": "https://en.wikipedia.org/wiki/Mastercard"
+  },
+  {
+    "texts_id": 15,
+    "topics": "Corona",
+    "NA.": 0.0002,
+    "NA..1": "https://en.wikipedia.org/wiki/Coronavirus"
+  },
+  {
+    "texts_id": 15,
+    "topics": "Migros Bank",
+    "NA.": 0.0006,
+    "NA..1": "https://en.wikipedia.org/wiki/Migros_Bank"
+  },
+  {
+    "texts_id": 15,
+    "topics": "TCS",
+    "NA.": 0.0017,
+    "NA..1": "https://en.wikipedia.org/wiki/Touring_Club_Suisse"
+  },
+  {
+    "texts_id": 15,
+    "topics": "Schweiz",
+    "NA.": 0.002,
+    "NA..1": "https://en.wikipedia.org/wiki/Switzerland"
+  },
+  {
+    "texts_id": 15,
+    "topics": "Money Bank",
+    "NA.": 0.0074,
+    "NA..1": "https://de.wikipedia.org/wiki/GE_Money_Bank"
+  },
+  {
+    "texts_id": 15,
+    "topics": "ISIN",
+    "NA.": 0.0159,
+    "NA..1": "https://en.wikipedia.org/wiki/International_Securities_Identification_Number"
+  },
+  {
+    "texts_id": 15,
+    "topics": "Cembra Money Bank",
+    "NA.": 0.0265,
+    "NA..1": "https://de.wikipedia.org/wiki/Cembra_Money_Bank"
+  },
+  {
+    "texts_id": 15,
+    "topics": "Migros",
+    "NA.": 0.039,
+    "NA..1": "https://en.wikipedia.org/wiki/Migros"
+  }
+]

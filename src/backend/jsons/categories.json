@@ -1,0 +1,352 @@
+[
+  {
+    "texts_id": 1,
+    "score": 0.8529,
+    "label": "/finance/financial news"
+  },
+  {
+    "texts_id": 1,
+    "score": 0.8838,
+    "label": "/finance/bank"
+  },
+  {
+    "texts_id": 1,
+    "score": 0.8909,
+    "label": "/finance/investing"
+  },
+  {
+    "texts_id": 1,
+    "score": 0.8909,
+    "label": "/finance/investing/beginning investing"
+  },
+  {
+    "texts_id": 1,
+    "score": 0.9295,
+    "label": "/society/work/unemployment"
+  },
+  {
+    "texts_id": 2,
+    "score": 0.7941,
+    "label": "/finance/investing/stocks"
+  },
+  {
+    "texts_id": 2,
+    "score": 0.8148,
+    "label": "/society/work/unemployment"
+  },
+  {
+    "texts_id": 2,
+    "score": 0.8225,
+    "label": "/finance/financial news"
+  },
+  {
+    "texts_id": 2,
+    "score": 0.8718,
+    "label": "/finance/investing"
+  },
+  {
+    "texts_id": 2,
+    "score": 0.8718,
+    "label": "/finance/investing/beginning investing"
+  },
+  {
+    "texts_id": 4,
+    "score": 0.8282,
+    "label": "/finance/financial news"
+  },
+  {
+    "texts_id": 4,
+    "score": 0.9302,
+    "label": "/finance/bank"
+  },
+  {
+    "texts_id": 4,
+    "score": 0.9712,
+    "label": "/society/work/unemployment"
+  },
+  {
+    "texts_id": 4,
+    "score": 0.9723,
+    "label": "/finance/investing"
+  },
+  {
+    "texts_id": 4,
+    "score": 0.9723,
+    "label": "/finance/investing/beginning investing"
+  },
+  {
+    "texts_id": 5,
+    "score": 0.7977,
+    "label": "/finance/bank"
+  },
+  {
+    "texts_id": 5,
+    "score": 0.89,
+    "label": "/finance/financial news"
+  },
+  {
+    "texts_id": 5,
+    "score": 0.8948,
+    "label": "/society/work/unemployment"
+  },
+  {
+    "texts_id": 5,
+    "score": 0.9335,
+    "label": "/finance/investing"
+  },
+  {
+    "texts_id": 5,
+    "score": 0.9335,
+    "label": "/finance/investing/beginning investing"
+  },
+  {
+    "texts_id": 6,
+    "score": 0.8351,
+    "label": "/finance/financial news"
+  },
+  {
+    "texts_id": 6,
+    "score": 0.8738,
+    "label": "/finance/investing/day trading"
+  },
+  {
+    "texts_id": 6,
+    "score": 0.893,
+    "label": "/finance/investing/stocks"
+  },
+  {
+    "texts_id": 6,
+    "score": 0.9328,
+    "label": "/finance/investing"
+  },
+  {
+    "texts_id": 6,
+    "score": 0.9328,
+    "label": "/finance/investing/beginning investing"
+  },
+  {
+    "texts_id": 7,
+    "score": 0.8336,
+    "label": "/finance/financial news"
+  },
+  {
+    "texts_id": 7,
+    "score": 0.8547,
+    "label": "/finance/investing"
+  },
+  {
+    "texts_id": 7,
+    "score": 0.8547,
+    "label": "/finance/investing/beginning investing"
+  },
+  {
+    "texts_id": 7,
+    "score": 0.8564,
+    "label": "/society/work/unemployment"
+  },
+  {
+    "texts_id": 7,
+    "score": 0.9077,
+    "label": "/finance/bank"
+  },
+  {
+    "texts_id": 8,
+    "score": 0.8093,
+    "label": "/finance/investing/beginning investing"
+  },
+  {
+    "texts_id": 8,
+    "score": 0.833,
+    "label": "/finance/investing/stocks"
+  },
+  {
+    "texts_id": 8,
+    "score": 0.858,
+    "label": "/finance/financial news"
+  },
+  {
+    "texts_id": 8,
+    "score": 0.9001,
+    "label": "/finance/investing/day trading"
+  },
+  {
+    "texts_id": 8,
+    "score": 0.9238,
+    "label": "/automotive and vehicles/electric vehicles"
+  },
+  {
+    "texts_id": 9,
+    "score": 0.7763,
+    "label": "/finance/financial news"
+  },
+  {
+    "texts_id": 9,
+    "score": 0.9444,
+    "label": "/finance/bank"
+  },
+  {
+    "texts_id": 9,
+    "score": 0.9681,
+    "label": "/finance/investing"
+  },
+  {
+    "texts_id": 9,
+    "score": 0.9681,
+    "label": "/finance/investing/beginning investing"
+  },
+  {
+    "texts_id": 9,
+    "score": 0.9961,
+    "label": "/society/work/unemployment"
+  },
+  {
+    "texts_id": 10,
+    "score": 0.7406,
+    "label": "/finance/investing"
+  },
+  {
+    "texts_id": 10,
+    "score": 0.7406,
+    "label": "/finance/investing/beginning investing"
+  },
+  {
+    "texts_id": 10,
+    "score": 0.7483,
+    "label": "/health and fitness/disease/epidemic"
+  },
+  {
+    "texts_id": 10,
+    "score": 0.7667,
+    "label": "/health and fitness/disease/cold and flu"
+  },
+  {
+    "texts_id": 10,
+    "score": 0.9598,
+    "label": "/society/work/unemployment"
+  },
+  {
+    "texts_id": 11,
+    "score": 0.6215,
+    "label": "/business and industrial/advertising and marketing/brand management"
+  },
+  {
+    "texts_id": 11,
+    "score": 0.634,
+    "label": "/business and industrial/manufacturing"
+  },
+  {
+    "texts_id": 11,
+    "score": 0.6612,
+    "label": "/food and drink/beverages"
+  },
+  {
+    "texts_id": 11,
+    "score": 0.6719,
+    "label": "/business and industrial/business software"
+  },
+  {
+    "texts_id": 11,
+    "score": 0.7136,
+    "label": "/business and industrial/paper industry"
+  },
+  {
+    "texts_id": 12,
+    "score": 0.6929,
+    "label": "/finance/investing/funds"
+  },
+  {
+    "texts_id": 12,
+    "score": 0.7356,
+    "label": "/real estate/buying and selling homes"
+  },
+  {
+    "texts_id": 12,
+    "score": 0.7547,
+    "label": "/finance/financial news"
+  },
+  {
+    "texts_id": 12,
+    "score": 0.9508,
+    "label": "/finance/investing"
+  },
+  {
+    "texts_id": 12,
+    "score": 0.9508,
+    "label": "/finance/investing/beginning investing"
+  },
+  {
+    "texts_id": 13,
+    "score": 0.6929,
+    "label": "/finance/investing/funds"
+  },
+  {
+    "texts_id": 13,
+    "score": 0.7356,
+    "label": "/real estate/buying and selling homes"
+  },
+  {
+    "texts_id": 13,
+    "score": 0.7547,
+    "label": "/finance/financial news"
+  },
+  {
+    "texts_id": 13,
+    "score": 0.9508,
+    "label": "/finance/investing"
+  },
+  {
+    "texts_id": 13,
+    "score": 0.9508,
+    "label": "/finance/investing/beginning investing"
+  },
+  {
+    "texts_id": 14,
+    "score": 0.879,
+    "label": "/finance/investing/funds/mutual funds"
+  },
+  {
+    "texts_id": 14,
+    "score": 0.9012,
+    "label": "/business and industrial/company/earnings"
+  },
+  {
+    "texts_id": 14,
+    "score": 0.9071,
+    "label": "/finance/financial news"
+  },
+  {
+    "texts_id": 14,
+    "score": 0.9575,
+    "label": "/finance/investing"
+  },
+  {
+    "texts_id": 14,
+    "score": 0.9575,
+    "label": "/finance/investing/beginning investing"
+  },
+  {
+    "texts_id": 15,
+    "score": 0.7786,
+    "label": "/finance/bank"
+  },
+  {
+    "texts_id": 15,
+    "score": 0.7874,
+    "label": "/finance/investing"
+  },
+  {
+    "texts_id": 15,
+    "score": 0.7874,
+    "label": "/finance/investing/beginning investing"
+  },
+  {
+    "texts_id": 15,
+    "score": 0.8664,
+    "label": "/finance/financial news"
+  },
+  {
+    "texts_id": 15,
+    "score": 0.9583,
+    "label": "/business and industrial/company/earnings"
+  }
+]

@@ -1,0 +1,422 @@
+[
+  {
+    "texts_id": 1,
+    "text": "Kurs-Gewinn-Verhältnis",
+    "relevance": 0.8801,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Kurs-Gewinn-Verhältnis"
+  },
+  {
+    "texts_id": 1,
+    "text": "Börse",
+    "relevance": 0.895,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Börse"
+  },
+  {
+    "texts_id": 1,
+    "text": "Eigenkapital",
+    "relevance": 0.9251,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Eigenkapital"
+  },
+  {
+    "texts_id": 1,
+    "text": "Börsenkurs",
+    "relevance": 0.9371,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Börsenkurs"
+  },
+  {
+    "texts_id": 1,
+    "text": "Aktie",
+    "relevance": 0.986,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Aktie"
+  },
+  {
+    "texts_id": 2,
+    "text": "Buchwert",
+    "relevance": 0.878,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Buchwert"
+  },
+  {
+    "texts_id": 2,
+    "text": "Internet",
+    "relevance": 0.8984,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Internet"
+  },
+  {
+    "texts_id": 2,
+    "text": "Eigenkapital",
+    "relevance": 0.9265,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Eigenkapital"
+  },
+  {
+    "texts_id": 2,
+    "text": "Börsenkurs",
+    "relevance": 0.9287,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Börsenkurs"
+  },
+  {
+    "texts_id": 2,
+    "text": "Aktie",
+    "relevance": 0.9867,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Aktie"
+  },
+  {
+    "texts_id": 4,
+    "text": "Inflation",
+    "relevance": 0.918,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Inflation"
+  },
+  {
+    "texts_id": 4,
+    "text": "Eigenkapital",
+    "relevance": 0.9209,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Eigenkapital"
+  },
+  {
+    "texts_id": 4,
+    "text": "Börsenkurs",
+    "relevance": 0.9213,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Börsenkurs"
+  },
+  {
+    "texts_id": 4,
+    "text": "Geldpolitik",
+    "relevance": 0.973,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Geldpolitik"
+  },
+  {
+    "texts_id": 4,
+    "text": "Aktie",
+    "relevance": 0.9855,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Aktie"
+  },
+  {
+    "texts_id": 5,
+    "text": "Cashflow",
+    "relevance": 0.9008,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Cashflow"
+  },
+  {
+    "texts_id": 5,
+    "text": "Börsenkurs",
+    "relevance": 0.9141,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Börsenkurs"
+  },
+  {
+    "texts_id": 5,
+    "text": "Eigenkapital",
+    "relevance": 0.9147,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Eigenkapital"
+  },
+  {
+    "texts_id": 5,
+    "text": "Gewinn vor Steuern",
+    "relevance": 0.927,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Gewinn_vor_Steuern"
+  },
+  {
+    "texts_id": 5,
+    "text": "Aktie",
+    "relevance": 0.9812,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Aktie"
+  },
+  {
+    "texts_id": 6,
+    "text": "Verteidigung",
+    "relevance": 0.7559,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Verteidigung"
+  },
+  {
+    "texts_id": 6,
+    "text": "Aktienindex",
+    "relevance": 0.7988,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Aktienindex"
+  },
+  {
+    "texts_id": 6,
+    "text": "E-Mail",
+    "relevance": 0.8023,
+    "dpedia_resource": "http://de.dbpedia.org/resource/E-Mail"
+  },
+  {
+    "texts_id": 6,
+    "text": "Vereinigte Staaten",
+    "relevance": 0.8349,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Vereinigte_Staaten"
+  },
+  {
+    "texts_id": 6,
+    "text": "Konsum",
+    "relevance": 0.8685,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Konsum"
+  },
+  {
+    "texts_id": 7,
+    "text": "Staatsverschuldung",
+    "relevance": 0.9142,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Staatsverschuldung"
+  },
+  {
+    "texts_id": 7,
+    "text": "Schweizerische Nationalbank",
+    "relevance": 0.9394,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Schweizerische_Nationalbank"
+  },
+  {
+    "texts_id": 7,
+    "text": "Inflation",
+    "relevance": 0.9758,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Inflation"
+  },
+  {
+    "texts_id": 7,
+    "text": "Euro",
+    "relevance": 0.995,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Euro"
+  },
+  {
+    "texts_id": 7,
+    "text": "Geldpolitik",
+    "relevance": 0.9956,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Geldpolitik"
+  },
+  {
+    "texts_id": 8,
+    "text": "St.Galler Kantonalbank",
+    "relevance": 0.8832,
+    "dpedia_resource": "http://de.dbpedia.org/resource/St.Galler_Kantonalbank"
+  },
+  {
+    "texts_id": 8,
+    "text": "Eidgenössische Finanzmarktaufsicht",
+    "relevance": 0.9028,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Eidgenössische_Finanzmarktaufsicht"
+  },
+  {
+    "texts_id": 8,
+    "text": "US-Dollar",
+    "relevance": 0.9424,
+    "dpedia_resource": "http://de.dbpedia.org/resource/US-Dollar"
+  },
+  {
+    "texts_id": 8,
+    "text": "UBS",
+    "relevance": 0.9847,
+    "dpedia_resource": "http://de.dbpedia.org/resource/UBS"
+  },
+  {
+    "texts_id": 8,
+    "text": "Euro",
+    "relevance": 0.9867,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Euro"
+  },
+  {
+    "texts_id": 9,
+    "text": "S&P 500",
+    "relevance": 0.9172,
+    "dpedia_resource": "http://de.dbpedia.org/resource/S&P_500"
+  },
+  {
+    "texts_id": 9,
+    "text": "Geldpolitik",
+    "relevance": 0.966,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Geldpolitik"
+  },
+  {
+    "texts_id": 9,
+    "text": "Volkswirtschaft",
+    "relevance": 0.9719,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Volkswirtschaft"
+  },
+  {
+    "texts_id": 9,
+    "text": "Inflation",
+    "relevance": 0.9887,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Inflation"
+  },
+  {
+    "texts_id": 9,
+    "text": "Euro",
+    "relevance": 0.992,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Euro"
+  },
+  {
+    "texts_id": 10,
+    "text": "Eurozone",
+    "relevance": 0.8926,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Eurozone"
+  },
+  {
+    "texts_id": 10,
+    "text": "S&P 500",
+    "relevance": 0.9028,
+    "dpedia_resource": "http://de.dbpedia.org/resource/S&P_500"
+  },
+  {
+    "texts_id": 10,
+    "text": "Eidgenössische Finanzmarktaufsicht",
+    "relevance": 0.9036,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Eidgenössische_Finanzmarktaufsicht"
+  },
+  {
+    "texts_id": 10,
+    "text": "Geldpolitik",
+    "relevance": 0.9359,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Geldpolitik"
+  },
+  {
+    "texts_id": 10,
+    "text": "Euro",
+    "relevance": 0.9938,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Euro"
+  },
+  {
+    "texts_id": 11,
+    "text": "Nestlé",
+    "relevance": 0.7285,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Nestlé"
+  },
+  {
+    "texts_id": 11,
+    "text": "Signatur",
+    "relevance": 0.7289,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Signatur_(E-Mails_und_Postings)"
+  },
+  {
+    "texts_id": 11,
+    "text": "Aktie",
+    "relevance": 0.871,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Aktie"
+  },
+  {
+    "texts_id": 11,
+    "text": "Joint Venture",
+    "relevance": 0.8919,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Joint_Venture"
+  },
+  {
+    "texts_id": 11,
+    "text": "Börse",
+    "relevance": 0.9313,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Börse"
+  },
+  {
+    "texts_id": 12,
+    "text": "Vereinigte Staaten",
+    "relevance": 0.7437,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Vereinigte_Staaten"
+  },
+  {
+    "texts_id": 12,
+    "text": "Wirtschaftszweig",
+    "relevance": 0.8178,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Wirtschaftszweig"
+  },
+  {
+    "texts_id": 12,
+    "text": "Million",
+    "relevance": 0.8258,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Million"
+  },
+  {
+    "texts_id": 12,
+    "text": "Jahresüberschuss",
+    "relevance": 0.9108,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Jahresüberschuss"
+  },
+  {
+    "texts_id": 12,
+    "text": "EBITDA",
+    "relevance": 0.9662,
+    "dpedia_resource": "http://de.dbpedia.org/resource/EBITDA"
+  },
+  {
+    "texts_id": 13,
+    "text": "Vereinigte Staaten",
+    "relevance": 0.7437,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Vereinigte_Staaten"
+  },
+  {
+    "texts_id": 13,
+    "text": "Wirtschaftszweig",
+    "relevance": 0.8178,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Wirtschaftszweig"
+  },
+  {
+    "texts_id": 13,
+    "text": "Million",
+    "relevance": 0.8258,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Million"
+  },
+  {
+    "texts_id": 13,
+    "text": "Jahresüberschuss",
+    "relevance": 0.9108,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Jahresüberschuss"
+  },
+  {
+    "texts_id": 13,
+    "text": "EBITDA",
+    "relevance": 0.9662,
+    "dpedia_resource": "http://de.dbpedia.org/resource/EBITDA"
+  },
+  {
+    "texts_id": 14,
+    "text": "Aktie",
+    "relevance": 0.7912,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Aktie"
+  },
+  {
+    "texts_id": 14,
+    "text": "Rentabilität",
+    "relevance": 0.8298,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Rentabilität"
+  },
+  {
+    "texts_id": 14,
+    "text": "Schweizer Franken",
+    "relevance": 0.8342,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Schweizer_Franken"
+  },
+  {
+    "texts_id": 14,
+    "text": "Dividende",
+    "relevance": 0.9708,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Dividende"
+  },
+  {
+    "texts_id": 14,
+    "text": "Versicherer",
+    "relevance": 0.9724,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Versicherer"
+  },
+  {
+    "texts_id": 15,
+    "text": "Rentabilität",
+    "relevance": 0.7005,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Rentabilität"
+  },
+  {
+    "texts_id": 15,
+    "text": "Gewinn",
+    "relevance": 0.7523,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Gewinn"
+  },
+  {
+    "texts_id": 15,
+    "text": "Million",
+    "relevance": 0.7684,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Million"
+  },
+  {
+    "texts_id": 15,
+    "text": "Jahresüberschuss",
+    "relevance": 0.806,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Jahresüberschuss"
+  },
+  {
+    "texts_id": 15,
+    "text": "Aktie",
+    "relevance": 0.8993,
+    "dpedia_resource": "http://de.dbpedia.org/resource/Aktie"
+  }
+]

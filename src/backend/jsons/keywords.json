@@ -1,0 +1,794 @@
+[
+  {
+    "texts_id": 1,
+    "text": "teuerung gros s",
+    "relevance": 0.6004,
+    "count": 1
+  },
+  {
+    "texts_id": 1,
+    "text": "s tärks te",
+    "relevance": 0.638,
+    "count": 1
+  },
+  {
+    "texts_id": 1,
+    "text": "S olide B",
+    "relevance": 0.6586,
+    "count": 1
+  },
+  {
+    "texts_id": 1,
+    "text": "Coronakris e",
+    "relevance": 0.675,
+    "count": 4
+  },
+  {
+    "texts_id": 1,
+    "text": "S ektorkommentar",
+    "relevance": 0.7027,
+    "count": 1
+  },
+  {
+    "texts_id": 1,
+    "text": "S&P",
+    "relevance": 0.8559,
+    "count": 1
+  },
+  {
+    "texts_id": 2,
+    "text": "fundamentalen Bewertungskennzahlen",
+    "relevance": 0.5523,
+    "count": 1
+  },
+  {
+    "texts_id": 2,
+    "text": "relativ stärkste Dynamik",
+    "relevance": 0.5525,
+    "count": 1
+  },
+  {
+    "texts_id": 2,
+    "text": "hohe Erwartungshaltung vorhanden",
+    "relevance": 0.5542,
+    "count": 1
+  },
+  {
+    "texts_id": 2,
+    "text": "deutlich tiefere Ölpreise",
+    "relevance": 0.559,
+    "count": 1
+  },
+  {
+    "texts_id": 2,
+    "text": "stark angestiegenen Technologiewerten",
+    "relevance": 0.5961,
+    "count": 1
+  },
+  {
+    "texts_id": 2,
+    "text": "Sektoren Energie Industrie",
+    "relevance": 0.6353,
+    "count": 1
+  },
+  {
+    "texts_id": 4,
+    "text": "steigende Inflation",
+    "relevance": 0.5403,
+    "count": 1
+  },
+  {
+    "texts_id": 4,
+    "text": "zyklischer Konsum",
+    "relevance": 0.5411,
+    "count": 2
+  },
+  {
+    "texts_id": 4,
+    "text": "Bloomberg eigene",
+    "relevance": 0.5424,
+    "count": 3
+  },
+  {
+    "texts_id": 4,
+    "text": "Technologie-Unternehmen",
+    "relevance": 0.5435,
+    "count": 1
+  },
+  {
+    "texts_id": 4,
+    "text": "tiefen Zinsen",
+    "relevance": 0.544,
+    "count": 1
+  },
+  {
+    "texts_id": 4,
+    "text": "Sektoren Technologie Kommunikationsdienste",
+    "relevance": 0.5479,
+    "count": 1
+  },
+  {
+    "texts_id": 4,
+    "text": "fundamentalen Bewertungskennzahlen",
+    "relevance": 0.5498,
+    "count": 1
+  },
+  {
+    "texts_id": 4,
+    "text": "Sektoren Finanzen Energie",
+    "relevance": 0.5742,
+    "count": 1
+  },
+  {
+    "texts_id": 4,
+    "text": "höheren Inflation",
+    "relevance": 0.575,
+    "count": 1
+  },
+  {
+    "texts_id": 4,
+    "text": "Sektor Gesundheit",
+    "relevance": 0.6483,
+    "count": 2
+  },
+  {
+    "texts_id": 5,
+    "text": "Bloomberg eigene",
+    "relevance": 0.5339,
+    "count": 3
+  },
+  {
+    "texts_id": 5,
+    "text": "EBITDA Unternehmenswert",
+    "relevance": 0.5364,
+    "count": 1
+  },
+  {
+    "texts_id": 5,
+    "text": "positives Resümee",
+    "relevance": 0.5368,
+    "count": 1
+  },
+  {
+    "texts_id": 5,
+    "text": "steigenden Rohwarenpreise",
+    "relevance": 0.5384,
+    "count": 1
+  },
+  {
+    "texts_id": 5,
+    "text": "tiefe Vergleichsbasis",
+    "relevance": 0.5387,
+    "count": 1
+  },
+  {
+    "texts_id": 5,
+    "text": "Grossteil der Unternehmen",
+    "relevance": 0.5401,
+    "count": 1
+  },
+  {
+    "texts_id": 5,
+    "text": "Fortsetzung der starken Wirtschaftserholung",
+    "relevance": 0.5506,
+    "count": 1
+  },
+  {
+    "texts_id": 5,
+    "text": "fundamentalen Bewertungskennzahlen",
+    "relevance": 0.5512,
+    "count": 1
+  },
+  {
+    "texts_id": 5,
+    "text": "Sektoren Energie Finanzen",
+    "relevance": 0.5569,
+    "count": 1
+  },
+  {
+    "texts_id": 5,
+    "text": "hohe Erwartungshaltung vorhanden",
+    "relevance": 0.5666,
+    "count": 1
+  },
+  {
+    "texts_id": 6,
+    "text": "konjunktursensitive Sektor Energie",
+    "relevance": 0.5371,
+    "count": 1
+  },
+  {
+    "texts_id": 6,
+    "text": "gutes Nervenkostüm",
+    "relevance": 0.5385,
+    "count": 1
+  },
+  {
+    "texts_id": 6,
+    "text": "relativ tiefen Rohwarenpreisen",
+    "relevance": 0.5401,
+    "count": 1
+  },
+  {
+    "texts_id": 6,
+    "text": "defensive Sektor Immobilien",
+    "relevance": 0.543,
+    "count": 1
+  },
+  {
+    "texts_id": 6,
+    "text": "hohe Erwartungshaltung vorhanden",
+    "relevance": 0.5451,
+    "count": 1
+  },
+  {
+    "texts_id": 6,
+    "text": "historischen Durchschnitt",
+    "relevance": 0.5468,
+    "count": 1
+  },
+  {
+    "texts_id": 6,
+    "text": "neue Jahr",
+    "relevance": 0.5567,
+    "count": 1
+  },
+  {
+    "texts_id": 6,
+    "text": "Prozyklisches Sektorenbild",
+    "relevance": 0.5928,
+    "count": 1
+  },
+  {
+    "texts_id": 6,
+    "text": "stärkste relative Momentum",
+    "relevance": 0.6019,
+    "count": 1
+  },
+  {
+    "texts_id": 6,
+    "text": "Sektoren Technologie zyklischer",
+    "relevance": 0.6286,
+    "count": 1
+  },
+  {
+    "texts_id": 7,
+    "text": "Hilfe der SNB",
+    "relevance": 0.5392,
+    "count": 1
+  },
+  {
+    "texts_id": 7,
+    "text": "Wirtschaft USA",
+    "relevance": 0.54,
+    "count": 1
+  },
+  {
+    "texts_id": 7,
+    "text": "scheinbare Gratisvermögen der Nationalbank",
+    "relevance": 0.5406,
+    "count": 1
+  },
+  {
+    "texts_id": 7,
+    "text": "Dokument enthaltenen",
+    "relevance": 0.5433,
+    "count": 2
+  },
+  {
+    "texts_id": 7,
+    "text": "kurzen Frist",
+    "relevance": 0.545,
+    "count": 1
+  },
+  {
+    "texts_id": 7,
+    "text": "Geld der SNB zweckgebunden",
+    "relevance": 0.5524,
+    "count": 1
+  },
+  {
+    "texts_id": 7,
+    "text": "starken Rückgang der Aktienkurse",
+    "relevance": 0.5555,
+    "count": 1
+  },
+  {
+    "texts_id": 7,
+    "text": "Euro-Mindestkurs",
+    "relevance": 0.5627,
+    "count": 2
+  },
+  {
+    "texts_id": 7,
+    "text": "Rohstoffmärkte Ölpreis WTI",
+    "relevance": 0.5756,
+    "count": 1
+  },
+  {
+    "texts_id": 7,
+    "text": "Jahre SNB-Wechselkurspolitik",
+    "relevance": 0.6509,
+    "count": 1
+  },
+  {
+    "texts_id": 8,
+    "text": "stärksten Verschiebungen",
+    "relevance": 0.5344,
+    "count": 1
+  },
+  {
+    "texts_id": 8,
+    "text": "relevanten WirtschaftsdatenDie Angaben",
+    "relevance": 0.5354,
+    "count": 1
+  },
+  {
+    "texts_id": 8,
+    "text": "US-Klägern",
+    "relevance": 0.5367,
+    "count": 1
+  },
+  {
+    "texts_id": 8,
+    "text": "letzten Freitag",
+    "relevance": 0.5377,
+    "count": 1
+  },
+  {
+    "texts_id": 8,
+    "text": "Asiatische Märkte Nikkei",
+    "relevance": 0.5383,
+    "count": 1
+  },
+  {
+    "texts_id": 8,
+    "text": "Dokument enthaltenen",
+    "relevance": 0.5398,
+    "count": 2
+  },
+  {
+    "texts_id": 8,
+    "text": "ganze Situation",
+    "relevance": 0.5454,
+    "count": 1
+  },
+  {
+    "texts_id": 8,
+    "text": "Währungen US-Dollar",
+    "relevance": 0.5492,
+    "count": 1
+  },
+  {
+    "texts_id": 8,
+    "text": "geschlossen S&P",
+    "relevance": 0.5508,
+    "count": 1
+  },
+  {
+    "texts_id": 8,
+    "text": "schwachen Start",
+    "relevance": 0.5512,
+    "count": 1
+  },
+  {
+    "texts_id": 9,
+    "text": "Kurse gut",
+    "relevance": 0.5345,
+    "count": 1
+  },
+  {
+    "texts_id": 9,
+    "text": "länger laufenden Obligationen",
+    "relevance": 0.5359,
+    "count": 1
+  },
+  {
+    "texts_id": 9,
+    "text": "Investment Talk",
+    "relevance": 0.5374,
+    "count": 1
+  },
+  {
+    "texts_id": 9,
+    "text": "negative Realrendite",
+    "relevance": 0.5395,
+    "count": 1
+  },
+  {
+    "texts_id": 9,
+    "text": "Währungen US-Dollar",
+    "relevance": 0.5423,
+    "count": 1
+  },
+  {
+    "texts_id": 9,
+    "text": "letzten Monaten deutlich",
+    "relevance": 0.5424,
+    "count": 1
+  },
+  {
+    "texts_id": 9,
+    "text": "Fokus Negative Realzinsen",
+    "relevance": 0.5469,
+    "count": 1
+  },
+  {
+    "texts_id": 9,
+    "text": "Sparen unattraktiv",
+    "relevance": 0.5497,
+    "count": 1
+  },
+  {
+    "texts_id": 9,
+    "text": "aktuelle Anstieg der Inflationsraten",
+    "relevance": 0.5593,
+    "count": 1
+  },
+  {
+    "texts_id": 9,
+    "text": "guter Zustand",
+    "relevance": 0.58,
+    "count": 1
+  },
+  {
+    "texts_id": 10,
+    "text": "einzelnen Branchen",
+    "relevance": 0.5365,
+    "count": 1
+  },
+  {
+    "texts_id": 10,
+    "text": "Corona-Pandemie ausgelöste",
+    "relevance": 0.5367,
+    "count": 1
+  },
+  {
+    "texts_id": 10,
+    "text": "nächsten Jahren",
+    "relevance": 0.5425,
+    "count": 2
+  },
+  {
+    "texts_id": 10,
+    "text": "Mrd. US-Dollar",
+    "relevance": 0.5462,
+    "count": 1
+  },
+  {
+    "texts_id": 10,
+    "text": "Unternehmen grosse",
+    "relevance": 0.5471,
+    "count": 1
+  },
+  {
+    "texts_id": 10,
+    "text": "Auswirkungen Corona",
+    "relevance": 0.5501,
+    "count": 1
+  },
+  {
+    "texts_id": 10,
+    "text": "ausgerufene Ende der Pandemie",
+    "relevance": 0.5581,
+    "count": 1
+  },
+  {
+    "texts_id": 10,
+    "text": "erstes Fazit",
+    "relevance": 0.5651,
+    "count": 1
+  },
+  {
+    "texts_id": 10,
+    "text": "Konjunkturtalk der St.Galler Kantonalbank",
+    "relevance": 0.5739,
+    "count": 2
+  },
+  {
+    "texts_id": 10,
+    "text": "wirtschaftlichen Erholung",
+    "relevance": 0.5783,
+    "count": 1
+  },
+  {
+    "texts_id": 11,
+    "text": "Marktführer Tetra Pak",
+    "relevance": 0.5549,
+    "count": 2
+  },
+  {
+    "texts_id": 11,
+    "text": "letzten Monaten",
+    "relevance": 0.5569,
+    "count": 1
+  },
+  {
+    "texts_id": 11,
+    "text": "wichtiger Faktor",
+    "relevance": 0.5669,
+    "count": 1
+  },
+  {
+    "texts_id": 11,
+    "text": "Neukundengewinnung stärkerer",
+    "relevance": 0.5676,
+    "count": 1
+  },
+  {
+    "texts_id": 11,
+    "text": "hohe Anteil",
+    "relevance": 0.5895,
+    "count": 1
+  },
+  {
+    "texts_id": 11,
+    "text": "wichtigsten Endabnehmer",
+    "relevance": 0.5988,
+    "count": 1
+  },
+  {
+    "texts_id": 11,
+    "text": "Geschäftsmodell SIG Combibloc",
+    "relevance": 0.6189,
+    "count": 1
+  },
+  {
+    "texts_id": 11,
+    "text": "SIG Comibloc",
+    "relevance": 0.6446,
+    "count": 1
+  },
+  {
+    "texts_id": 11,
+    "text": "grossen multinationalen Unternehmen",
+    "relevance": 0.6769,
+    "count": 1
+  },
+  {
+    "texts_id": 11,
+    "text": "SIG Combibloc",
+    "relevance": 0.8946,
+    "count": 3
+  },
+  {
+    "texts_id": 12,
+    "text": "nächsten Jahre",
+    "relevance": 0.541,
+    "count": 1
+  },
+  {
+    "texts_id": 12,
+    "text": "aktuellen Kursniveau",
+    "relevance": 0.5522,
+    "count": 1
+  },
+  {
+    "texts_id": 12,
+    "text": "bedeutendsten Regionen",
+    "relevance": 0.5663,
+    "count": 1
+  },
+  {
+    "texts_id": 12,
+    "text": "Corona-Krise",
+    "relevance": 0.5663,
+    "count": 3
+  },
+  {
+    "texts_id": 12,
+    "text": "Ascom-Aktie",
+    "relevance": 0.5884,
+    "count": 1
+  },
+  {
+    "texts_id": 12,
+    "text": "Investment Case Ascom",
+    "relevance": 0.5978,
+    "count": 1
+  },
+  {
+    "texts_id": 12,
+    "text": "Nachhaltiges Geschäftsmodell",
+    "relevance": 0.6016,
+    "count": 1
+  },
+  {
+    "texts_id": 12,
+    "text": "fairen Wert der Aktie",
+    "relevance": 0.6036,
+    "count": 1
+  },
+  {
+    "texts_id": 12,
+    "text": "restliche Umsatz",
+    "relevance": 0.6072,
+    "count": 1
+  },
+  {
+    "texts_id": 12,
+    "text": "Investment-Case",
+    "relevance": 0.6954,
+    "count": 1
+  },
+  {
+    "texts_id": 13,
+    "text": "nächsten Jahre",
+    "relevance": 0.541,
+    "count": 1
+  },
+  {
+    "texts_id": 13,
+    "text": "aktuellen Kursniveau",
+    "relevance": 0.5522,
+    "count": 1
+  },
+  {
+    "texts_id": 13,
+    "text": "bedeutendsten Regionen",
+    "relevance": 0.5663,
+    "count": 1
+  },
+  {
+    "texts_id": 13,
+    "text": "Corona-Krise",
+    "relevance": 0.5663,
+    "count": 3
+  },
+  {
+    "texts_id": 13,
+    "text": "Ascom-Aktie",
+    "relevance": 0.5884,
+    "count": 1
+  },
+  {
+    "texts_id": 13,
+    "text": "Investment Case Ascom",
+    "relevance": 0.5978,
+    "count": 1
+  },
+  {
+    "texts_id": 13,
+    "text": "Nachhaltiges Geschäftsmodell",
+    "relevance": 0.6016,
+    "count": 1
+  },
+  {
+    "texts_id": 13,
+    "text": "fairen Wert der Aktie",
+    "relevance": 0.6036,
+    "count": 1
+  },
+  {
+    "texts_id": 13,
+    "text": "restliche Umsatz",
+    "relevance": 0.6072,
+    "count": 1
+  },
+  {
+    "texts_id": 13,
+    "text": "Investment-Case",
+    "relevance": 0.6954,
+    "count": 1
+  },
+  {
+    "texts_id": 14,
+    "text": "Total-Performance",
+    "relevance": 0.552,
+    "count": 1
+  },
+  {
+    "texts_id": 14,
+    "text": "bisherigen Jahresverlauf",
+    "relevance": 0.5524,
+    "count": 1
+  },
+  {
+    "texts_id": 14,
+    "text": "Gesamtmarkt überdurchschnittliche",
+    "relevance": 0.5535,
+    "count": 1
+  },
+  {
+    "texts_id": 14,
+    "text": "Sparteil der klassischen Lebens",
+    "relevance": 0.5551,
+    "count": 1
+  },
+  {
+    "texts_id": 14,
+    "text": "letzten Jahren",
+    "relevance": 0.5552,
+    "count": 1
+  },
+  {
+    "texts_id": 14,
+    "text": "Reichweite.Geringerer Prämieneinnahmen",
+    "relevance": 0.5601,
+    "count": 1
+  },
+  {
+    "texts_id": 14,
+    "text": "stärkste Versicherungsaktie",
+    "relevance": 0.5707,
+    "count": 1
+  },
+  {
+    "texts_id": 14,
+    "text": "attraktive DividendeDer",
+    "relevance": 0.5759,
+    "count": 1
+  },
+  {
+    "texts_id": 14,
+    "text": "Swiss Life-Aktie",
+    "relevance": 0.6686,
+    "count": 1
+  },
+  {
+    "texts_id": 14,
+    "text": "Swiss Life",
+    "relevance": 0.8302,
+    "count": 6
+  },
+  {
+    "texts_id": 15,
+    "text": "Aktuelles Kursniveau",
+    "relevance": 0.5648,
+    "count": 1
+  },
+  {
+    "texts_id": 15,
+    "text": "unvorhergesehenes hohes Risiko",
+    "relevance": 0.5665,
+    "count": 1
+  },
+  {
+    "texts_id": 15,
+    "text": "Corona-Pandemie",
+    "relevance": 0.5672,
+    "count": 1
+  },
+  {
+    "texts_id": 15,
+    "text": "angekündigten Beendigung der Partnerschaft",
+    "relevance": 0.5692,
+    "count": 1
+  },
+  {
+    "texts_id": 15,
+    "text": "hohe Visibilität",
+    "relevance": 0.5787,
+    "count": 1
+  },
+  {
+    "texts_id": 15,
+    "text": "Wachstumssparte Kreditkarten tätig",
+    "relevance": 0.5819,
+    "count": 1
+  },
+  {
+    "texts_id": 15,
+    "text": "Vor-Corona-Jahr",
+    "relevance": 0.583,
+    "count": 1
+  },
+  {
+    "texts_id": 15,
+    "text": "stabile Geschäftsmodell",
+    "relevance": 0.6127,
+    "count": 1
+  },
+  {
+    "texts_id": 15,
+    "text": "letzten Jahren",
+    "relevance": 0.684,
+    "count": 1
+  },
+  {
+    "texts_id": 15,
+    "text": "Cembra Money Bank",
+    "relevance": 0.8036,
+    "count": 2
+  }
+]
