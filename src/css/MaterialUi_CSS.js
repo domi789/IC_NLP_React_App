@@ -16,19 +16,18 @@ const theme = createTheme({
 });
 export { theme };
 
-const useStylesItemCards = makeStyles({
+const customStylesCardItem = makeStyles({
   root: {
-    minWidth: 273,
-    margin: "15px",
+    display: "flex",
+    margin: 20,
   },
-  title: {
-    fontSize: 12,
-  },
-  pos: {
-    marginBottom: 12,
+  cover: {
+    // width: 151,
+    minWidth: 200,
+    backgroundSize: "contain",
   },
 });
-export { useStylesItemCards };
+export { customStylesCardItem };
 
 const customStylesLayout = makeStyles({
   root: {
@@ -42,6 +41,7 @@ const customStylesLayout = makeStyles({
   logo: {
     maxWidth: 160,
     padding: 20,
+    paddingRight: 50,
   },
   title: {
     flexGrow: 1,
@@ -56,8 +56,31 @@ const customStylesLayout = makeStyles({
   drawerPaper: {
     width: 360,
   },
-  appbar: {
-    paddingLeft: 380,
+  search: {
+    position: "relative",
+    borderRadius: theme.shape.borderRadius,
+    backgroundColor: "#f9f9f9",
+    // "&:hover": {
+    //   backgroundColor: alpha(theme.palette.common.white, 0.25),
+    // },
+    margin: 0,
+    width: "90%",
+  },
+  searchIcon: {
+    paddingLeft: "10px",
+    height: "100%",
+    position: "absolute",
+    pointerEvents: "none",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  inputInput: {
+    padding: theme.spacing(1, 1, 1, 0),
+    // vertical padding + font size from searchIcon
+    paddingLeft: `calc(1em + ${theme.spacing(4)}px)`,
+    transition: theme.transitions.create("width"),
+    width: "100%",
   },
 });
 export { customStylesLayout };
@@ -79,57 +102,8 @@ const customStylesSearchBox = makeStyles({
   paper: {
     padding: "16px",
   },
-  search: {
-    position: "relative",
-    borderRadius: theme.shape.borderRadius,
-    backgroundColor: "#f9f9f9",
-    // "&:hover": {
-    //   backgroundColor: alpha(theme.palette.common.white, 0.25),
-    // },
-    margin: 0,
-    width: "100%",
-  },
-  searchIcon: {
-    paddingLeft: "10px",
-    height: "100%",
-    position: "absolute",
-    pointerEvents: "none",
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-  inputInput: {
-    padding: theme.spacing(1, 1, 1, 0),
-    // vertical padding + font size from searchIcon
-    paddingLeft: `calc(1em + ${theme.spacing(4)}px)`,
-    transition: theme.transitions.create("width"),
-    width: "100%",
-  },
   button: {
     margin: theme.spacing(1),
   },
 });
 export { customStylesSearchBox };
-
-// const customStylesCardItem = makeStyles({
-//   avatar: {
-//     background: ({ cardInfos }) => {
-//       if (cardInfos.texts[0].kind_id === 1) {
-//         return yellow[700];
-//       }
-//       if (cardInfos.texts[0].kind_id === 2) {
-//         return blue[500];
-//       }
-//       if (cardInfos.texts[0].kind_id === 3) {
-//         return green[500];
-//       }
-//       if (cardInfos.texts[0].kind_id === 4) {
-//         return pink[500];
-//       }
-//       if (cardInfos.texts[0].kind_id === 5) {
-//         return red[500];
-//       }
-//     },
-//   },
-// });
-// export { customStylesCardItem };

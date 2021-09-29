@@ -79,6 +79,20 @@ class SearchModel {
     this.updateCardItems();
     this.updateReadTimeSelection();
   }
+  split_searchText_to_searchArray() {
+    this.searchArray = this.searchText
+      .replace(",", "")
+      .replace(";", "")
+      .split(" ");
+    this.updateCardItems();
+    this.updateReadTimeSelection();
+  }
+  remove_searchText_from_searchInput() {
+    this.updateSearchText("");
+    this.updateSearchArray([]);
+    this.updateCardItems();
+    this.updateReadTimeSelection();
+  }
 }
 
 export { SearchModel };

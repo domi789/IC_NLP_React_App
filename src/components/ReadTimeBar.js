@@ -5,7 +5,7 @@ import { observer } from "mobx-react-lite";
 
 const ReadTimeBar = observer(({ model }) => {
   return (
-    <>
+    <div style={{ paddingLeft: 20, paddingRight: 20 }}>
       <Typography variant="body1" gutterBottom>
         Lesezeit Selektion: {model.readTimeSelection} Minuten
       </Typography>
@@ -19,7 +19,7 @@ const ReadTimeBar = observer(({ model }) => {
           />
         </Box>
       </Box>
-    </>
+    </div>
   );
 });
 

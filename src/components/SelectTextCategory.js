@@ -17,8 +17,8 @@ const SelectTextCategory = observer(({ model }) => {
 
   return (
     <div className={classes.field}>
-      <Typography variant="body2" gutterBottom>
-        nach Text Kategorie
+      <Typography variant="body1" gutterBottom>
+        Text Kategories
       </Typography>
       <FormGroup>
         {model.categories.map((c) => (

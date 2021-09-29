@@ -152,4 +152,25 @@ describe("All Information for Cards", () => {
     // Assert
     expect(cardInfos[0].texts[0].id).toStrictEqual(12);
   });
+
+  test("Active CardItem info: Split Search Text into Array", () => {
+    // ARANGE
+    // Prepare categories
+    const categories = get_unique_kind_id_name(db).map((k) => ({
+      ...k,
+      checked: true,
+    }));
+    categories[1].checked = false;
+
+    // prepare searchArray
+    const searchText = "Ascom der, ein";
+    const searchArray = searchText.replace(",", "").replace(";", "").split(" ");
+
+    // Act
+    const cardInfos = updateCardItemInfos_AND(db, categories, searchArray);
+    // console.log(searchArray);
+
+    // Assert
+    expect(cardInfos[0].texts[0].id).toStrictEqual(12);
+  });
 });
