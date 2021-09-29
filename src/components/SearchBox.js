@@ -24,9 +24,6 @@ const SearchBox = observer(({ model }) => {
 
   return (
     <div style={{ padding: 20 }}>
-      <Typography variant="h6" gutterBottom>
-        Suchoptionen
-      </Typography>
       <form noValidate autoComplete="off" onSubmit={onSubmitHandler}>
         {/* SEARCH INPUT */}
         <div className={classes.search}>
@@ -36,14 +33,11 @@ const SearchBox = observer(({ model }) => {
           <InputBase
             value={model.searchText}
             className={classes.inputInput}
-            placeholder="Suche nach ..."
+            placeholder="Themen & Stichworte suchen"
             onChange={(e) => model.updateSearchText(e.target.value)}
           />
         </div>
-        <div style={{ maxWidth: 240 }}>
-          {/* <Typography variant="body2" gutterBottom>
-            Textsuche nach:
-          </Typography> */}
+        <div style={{ maxWidth: 340 }}>
           {model.searchArray.map((c, index) => (
             <Chip
               style={{ margin: 5 }}

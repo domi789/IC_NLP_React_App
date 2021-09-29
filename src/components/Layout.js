@@ -13,7 +13,7 @@ const Layout = ({ children, model }) => {
       <AppBar className={classes.appbar} position="fixed" elevation={0}>
         <Toolbar>
           <Typography variant="h5" align="left" className={classes.title}>
-            Investment Center
+            IC Research Center
           </Typography>
           <Typography className={classes.date}>
             {format(new Date(), "dd MMMM Y")}
@@ -23,8 +23,10 @@ const Layout = ({ children, model }) => {
 
       {/* SIDE DRAWER fixed */}
       <Drawer className={classes.drawer} variant="permanent" anchor="left">
-        <img src={sgkb_logo} alt="logo" className={classes.logo} />
-        <SearchBox model={model} />
+        <div className={classes.drawerPaper}>
+          <img src={sgkb_logo} alt="logo" className={classes.logo} />
+          <SearchBox model={model} />
+        </div>
       </Drawer>
 
       <div className={classes.page}>{children}</div>

@@ -15,15 +15,6 @@ const SelectTextCategory = observer(({ model }) => {
     model.updateSelectedCategories(e);
   };
 
-  // const handleClick = (e) => () => {
-  //   console.log(e);
-  //   let newCategories = [...categories];
-  //   newCategories[e.kind_id - 1].checked = !e.checked;
-  //   setCategories(newCategories);
-  //   model.updateSelectedCategories(newCategories);
-  //   console.log(newCategories);
-  // };
-
   return (
     <div className={classes.field}>
       <Typography variant="body2" gutterBottom>
@@ -46,14 +37,6 @@ const SelectTextCategory = observer(({ model }) => {
           />
         ))}
       </FormGroup>
-      {/* {categories.map((c) => (
-        <Chip
-          className={c.checked ? classes.chipactive : classes.chip}
-          key={c.kind_id}
-          label={c.kind_name}
-          onClick={handleClick(c)}
-        />
-      ))} */}
     </div>
   );
 });

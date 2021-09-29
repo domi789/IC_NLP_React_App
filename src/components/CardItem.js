@@ -15,12 +15,14 @@ import {
   ListItem,
   ListItemIcon,
   ListItemText,
+  makeStyles,
   Typography,
 } from "@material-ui/core";
-import { customStylesCardItem } from "../css/MaterialUi_CSS";
+// import { customStylesCardItem } from "../css/MaterialUi_CSS";
 import ThumbUpOutlinedIcon from "@material-ui/icons/ThumbUpOutlined";
 import ThumbDownOutlinedIcon from "@material-ui/icons/ThumbDownOutlined";
 import format from "date-fns/format";
+import { blue, green, pink, red, yellow } from "@material-ui/core/colors";
 
 const CardItem = ({ cardInfos }) => {
   const classes = customStylesCardItem({ cardInfos });
@@ -128,3 +130,25 @@ const CardItem = ({ cardInfos }) => {
 };
 
 export default CardItem;
+
+var customStylesCardItem = makeStyles({
+  avatar: {
+    background: ({ cardInfos }) => {
+      if (cardInfos.texts[0].kind_id === 1) {
+        return yellow[700];
+      }
+      if (cardInfos.texts[0].kind_id === 2) {
+        return blue[500];
+      }
+      if (cardInfos.texts[0].kind_id === 3) {
+        return green[500];
+      }
+      if (cardInfos.texts[0].kind_id === 4) {
+        return pink[500];
+      }
+      if (cardInfos.texts[0].kind_id === 5) {
+        return red[500];
+      }
+    },
+  },
+});

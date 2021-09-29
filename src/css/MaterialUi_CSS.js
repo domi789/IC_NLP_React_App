@@ -1,5 +1,5 @@
 import { createTheme } from "@material-ui/core";
-import { blue, green, pink, red, yellow } from "@material-ui/core/colors";
+// import { blue, green, pink, red, yellow } from "@material-ui/core/colors";
 import { makeStyles } from "@material-ui/core/styles";
 
 const theme = createTheme({
@@ -51,11 +51,13 @@ const customStylesLayout = makeStyles({
     fontSize: "12px",
   },
   drawer: {
-    width: 280,
+    width: 360,
+  },
+  drawerPaper: {
+    width: 360,
   },
   appbar: {
-    // width: `calc(100% - 280px)`,
-    paddingLeft: 300,
+    paddingLeft: 380,
   },
 });
 export { customStylesLayout };
@@ -106,36 +108,28 @@ const customStylesSearchBox = makeStyles({
   button: {
     margin: theme.spacing(1),
   },
-  // chipactive: {
-  //   margin: 5,
-  //   backgroundColor: "green",
-  // },
-  // chip: {
-  //   margin: 5,
-  //   backgroundColor: "grey",
-  // },
 });
 export { customStylesSearchBox };
 
-const customStylesCardItem = makeStyles({
-  avatar: {
-    background: ({ cardInfos }) => {
-      if (cardInfos.texts[0].kind_id === 1) {
-        return yellow[700];
-      }
-      if (cardInfos.texts[0].kind_id === 2) {
-        return blue[500];
-      }
-      if (cardInfos.texts[0].kind_id === 3) {
-        return green[500];
-      }
-      if (cardInfos.texts[0].kind_id === 4) {
-        return pink[500];
-      }
-      if (cardInfos.texts[0].kind_id === 5) {
-        return red[500];
-      }
-    },
-  },
-});
-export { customStylesCardItem };
+// const customStylesCardItem = makeStyles({
+//   avatar: {
+//     background: ({ cardInfos }) => {
+//       if (cardInfos.texts[0].kind_id === 1) {
+//         return yellow[700];
+//       }
+//       if (cardInfos.texts[0].kind_id === 2) {
+//         return blue[500];
+//       }
+//       if (cardInfos.texts[0].kind_id === 3) {
+//         return green[500];
+//       }
+//       if (cardInfos.texts[0].kind_id === 4) {
+//         return pink[500];
+//       }
+//       if (cardInfos.texts[0].kind_id === 5) {
+//         return red[500];
+//       }
+//     },
+//   },
+// });
+// export { customStylesCardItem };
