@@ -19,13 +19,12 @@ export { theme };
 const customStylesCardItem = makeStyles({
   root: {
     display: "flex",
-    margin: 20,
   },
-  cover: {
-    // width: 151,
-    minWidth: 200,
-    backgroundSize: "contain",
-  },
+  // cover: {
+  //   // width: 151,
+  //   minWidth: 200,
+  //   backgroundSize: "contain",
+  // },
 });
 export { customStylesCardItem };
 
