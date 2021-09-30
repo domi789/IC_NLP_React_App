@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/IC_NLP_React_App/static/css/main.91128304.chunk.css",
-    "main.js": "/IC_NLP_React_App/static/js/main.949e5189.chunk.js",
-    "main.js.map": "/IC_NLP_React_App/static/js/main.949e5189.chunk.js.map",
+    "main.js": "/IC_NLP_React_App/static/js/main.96ea8906.chunk.js",
+    "main.js.map": "/IC_NLP_React_App/static/js/main.96ea8906.chunk.js.map",
     "runtime-main.js": "/IC_NLP_React_App/static/js/runtime-main.39242e19.js",
     "runtime-main.js.map": "/IC_NLP_React_App/static/js/runtime-main.39242e19.js.map",
-    "static/js/2.c5948d0c.chunk.js": "/IC_NLP_React_App/static/js/2.c5948d0c.chunk.js",
-    "static/js/2.c5948d0c.chunk.js.map": "/IC_NLP_React_App/static/js/2.c5948d0c.chunk.js.map",
+    "static/js/2.68531359.chunk.js": "/IC_NLP_React_App/static/js/2.68531359.chunk.js",
+    "static/js/2.68531359.chunk.js.map": "/IC_NLP_React_App/static/js/2.68531359.chunk.js.map",
     "index.html": "/IC_NLP_React_App/index.html",
     "static/css/main.91128304.chunk.css.map": "/IC_NLP_React_App/static/css/main.91128304.chunk.css.map",
-    "static/js/2.c5948d0c.chunk.js.LICENSE.txt": "/IC_NLP_React_App/static/js/2.c5948d0c.chunk.js.LICENSE.txt",
+    "static/js/2.68531359.chunk.js.LICENSE.txt": "/IC_NLP_React_App/static/js/2.68531359.chunk.js.LICENSE.txt",
     "static/media/Annotation.24f7df40.png": "/IC_NLP_React_App/static/media/Annotation.24f7df40.png",
     "static/media/Setup.ee63128f.png": "/IC_NLP_React_App/static/media/Setup.ee63128f.png",
     "static/media/aktienTrend.a24672b0.png": "/IC_NLP_React_App/static/media/aktienTrend.a24672b0.png",
@@ -17,8 +17,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.39242e19.js",
-    "static/js/2.c5948d0c.chunk.js",
+    "static/js/2.68531359.chunk.js",
     "static/css/main.91128304.chunk.css",
-    "static/js/main.949e5189.chunk.js"
+    "static/js/main.96ea8906.chunk.js"
   ]
 }
