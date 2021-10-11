@@ -163,12 +163,22 @@ describe("All Information for Cards", () => {
     categories[1].checked = false;
 
     // prepare searchArray
-    const searchText = "Ascom der, ein";
+    // const searchText = "Ascom der, ein";
+    const searchText = "ein";
     const searchArray = searchText.replace(",", "").replace(";", "").split(" ");
 
     // Act
     const cardInfos = updateCardItemInfos_AND(db, categories, searchArray);
     // console.log(searchArray);
+
+    const topics = [];
+    cardInfos.map((c) =>
+      c.topics.forEach((t) => {
+        topics.push(t);
+      })
+    );
+
+    // const topics2 = Object.values(topics);
 
     // Assert
     expect(cardInfos[0].texts[0].id).toStrictEqual(12);

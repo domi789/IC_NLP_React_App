@@ -6,6 +6,10 @@ import {
   get_unique_kind_id_name,
   updateCardItemInfos_AND,
 } from "../functions/helper_functions.js";
+import {
+  collect_edges,
+  convert_to_nodes,
+} from "../functions/topic_network_functions";
 
 class SearchModel {
   // class properties must have a default value
@@ -33,6 +37,11 @@ class SearchModel {
     (this.readTimeSelection / this.readTimeTotal) * 100
   );
 
+  topicNodes = convert_to_nodes(this.cardInfos);
+  topicEdges = collect_edges(this.topicNodes);
+
+  topicSelectedId = undefined;
+
   constructor() {
     makeAutoObservable(this);
   }
@@ -48,6 +57,7 @@ class SearchModel {
     this.categories[element.target.value - 1].checked = element.target.checked;
     this.updateCardItems();
     this.updateReadTimeSelection();
+    this.update_topicNodes();
   }
   updateCardItems() {
     this.cardInfos = updateCardItemInfos_AND(
@@ -73,11 +83,13 @@ class SearchModel {
     this.updateSearchText("");
     this.updateCardItems();
     this.updateReadTimeSelection();
+    this.update_topicNodes();
   }
   remove_searchText_from_searchArray(val) {
     this.searchArray = this.searchArray.filter((item) => item !== val);
     this.updateCardItems();
     this.updateReadTimeSelection();
+    this.update_topicNodes();
   }
   split_searchText_to_searchArray() {
     this.searchArray = this.searchText
@@ -86,12 +98,25 @@ class SearchModel {
       .split(" ");
     this.updateCardItems();
     this.updateReadTimeSelection();
+    this.update_topicNodes();
   }
   remove_searchText_from_searchInput() {
     this.updateSearchText("");
     this.updateSearchArray([]);
     this.updateCardItems();
     this.updateReadTimeSelection();
+    this.update_topicNodes();
+  }
+  update_topicNodes() {
+    this.topicNodes = convert_to_nodes(this.cardInfos);
+    this.update_topicEdges();
+  }
+  update_topicEdges() {
+    this.topicEdges = collect_edges(this.topicNodes, 0.0001);
+  }
+
+  update_topicSelected(newTopicId) {
+    this.topicSelected = newTopicId;
   }
 }
 

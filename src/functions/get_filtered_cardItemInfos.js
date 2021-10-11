@@ -42,6 +42,9 @@ function get_filtered_cardItemInfos(db, filters) {
         pv.relevance < cv.relevance ? 1 : -1
       ); /* absteigend sortiert */
 
+    // Topics
+    const filteredTopics = db.topics.filter((t) => f.includes(t.texts_id));
+
     const filteredOutputId = {
       texts: filteredTexte,
       keywords: filteredKeywords,
@@ -49,6 +52,7 @@ function get_filtered_cardItemInfos(db, filters) {
       sentimentsFlop: filteredSentimentsFlop,
       categories: filteredCategories,
       concepts: filteredConcepts,
+      topics: filteredTopics,
     };
 
     return filteredOutput.push(filteredOutputId);
