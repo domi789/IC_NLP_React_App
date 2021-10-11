@@ -10,23 +10,21 @@ function collect_topics(data, minScore) {
   return nodes;
 }
 
-export function convert_to_nodes(input) {
-  const minScore = 0.001;
-
+export function convert_to_nodes_cardItem(cardItem) {
   const data = [];
-  input.map((c) =>
+  cardItem.map((c) =>
     c.topics.forEach((t) => {
       data.push(t);
     })
   );
 
-  const topics = collect_topics(data, minScore);
+  return convert_to_nodes(data);
+}
 
-  // do {
-  //   minScore += 0.0001;
-  //   console.log(minScore);
-  //   // topics = collect_topics(data, minScore);
-  // } while (topics.length > 20);
+export function convert_to_nodes(data) {
+  const minScore = 0.001;
+
+  const topics = collect_topics(data, minScore);
 
   return topics.map((v, i) => {
     return {

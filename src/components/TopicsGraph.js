@@ -1,3 +1,4 @@
+import { Box, Divider, Paper, Typography } from "@material-ui/core";
 import { observer } from "mobx-react-lite";
 import React from "react";
 import Graph from "react-graph-vis";
@@ -98,7 +99,7 @@ const options = {
       },
     },
   },
-  height: "500px",
+  height: "400px",
   physics: {
     enabled: false,
   },
@@ -119,12 +120,32 @@ const TopicsGraph = observer(({ model }) => {
   };
 
   return (
-    <Graph
-      graph={graph}
-      options={options}
-      events={events}
-      getNetwork={(network) => {}}
-    />
+    <Paper
+      style={{
+        marginTop: "65px",
+        marginLeft: "30px",
+        paddingTop: "5px",
+        paddingBottom: "5px",
+      }}
+    >
+      <Typography
+        variant="h6"
+        color="textSecondary"
+        style={{
+          paddingLeft: "10px",
+        }}
+      >
+        Topic Netzwerk
+      </Typography>
+      <Divider style={{ margin: "10px" }} />
+      <Graph
+        graph={graph}
+        options={options}
+        events={events}
+        // getNetwork={(network) => {}}
+        style={{ margin: "10px" }}
+      />
+    </Paper>
   );
 });
 

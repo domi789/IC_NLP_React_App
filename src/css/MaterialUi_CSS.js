@@ -20,11 +20,6 @@ const customStylesCardItem = makeStyles({
   root: {
     display: "flex",
   },
-  // cover: {
-  //   // width: 151,
-  //   minWidth: 200,
-  //   backgroundSize: "contain",
-  // },
 });
 export { customStylesCardItem };
 

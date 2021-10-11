@@ -9,6 +9,7 @@ import {
 import {
   collect_edges,
   convert_to_nodes,
+  convert_to_nodes_cardItem,
 } from "../functions/topic_network_functions";
 
 class SearchModel {
@@ -37,7 +38,7 @@ class SearchModel {
     (this.readTimeSelection / this.readTimeTotal) * 100
   );
 
-  topicNodes = convert_to_nodes(this.cardInfos);
+  topicNodes = convert_to_nodes_cardItem(this.cardInfos);
   topicEdges = collect_edges(this.topicNodes);
 
   topicSelectedId = undefined;
@@ -108,7 +109,7 @@ class SearchModel {
     this.update_topicNodes();
   }
   update_topicNodes() {
-    this.topicNodes = convert_to_nodes(this.cardInfos);
+    this.topicNodes = convert_to_nodes_cardItem(this.cardInfos);
     this.update_topicEdges();
   }
   update_topicEdges() {
