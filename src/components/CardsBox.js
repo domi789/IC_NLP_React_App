@@ -7,14 +7,15 @@ import Masonry from "react-masonry-css";
 import TopicsGraph from "./TopicsGraph";
 
 function filter_selected_Node(model) {
-  console.log(typeof model.topicSelectedId);
-  if (model.topicSelectedId.length === 0) return model.cardInfos;
-  console.log("under if");
-  // find text ids from seleced node
-  const text_ids = [];
-  model.topicSelectedId.forEach((t) => {
-    const ids = model.topicNodes.find((n) => n.id === model.topicSelectedId);
-    text_ids = text_ids.concat(ids);
+  // typo in the model: model.topicSelected (instead of model.topicSelectedId)
+  if (model.topicSelected.length === 0) return model.cardInfos;
+  // find text ids from selected node
+  var text_ids = []; // <- must be var (we change it below)
+  model.topicSelected.forEach((t) => {
+    // we get the node back ...
+    const node = model.topicNodes.find((n) => n.id === t);
+    // ... and need to unwrap the text_ids property
+    text_ids = text_ids.concat(node.text_ids);
   });
 
   // filter cardInfos with text ids

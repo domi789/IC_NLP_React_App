@@ -45,7 +45,8 @@ class SearchModel {
     return collect_edges(this.topicNodes);
   }
 
-  topicSelectedId = [];
+  // need to use same spelling as in update_topicSelected()-function below
+  topicSelected = [];
 
   constructor() {
     makeAutoObservable(this);
