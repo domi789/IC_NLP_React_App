@@ -178,8 +178,6 @@ describe("All Information for Cards", () => {
       })
     );
 
-    // const topics2 = Object.values(topics);
-
     // Assert
     expect(cardInfos[0].texts[0].id).toStrictEqual(12);
   });

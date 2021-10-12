@@ -115,6 +115,7 @@ const TopicsGraph = observer(({ model }) => {
     select: function (event) {
       var { nodes, edges } = event;
       model.update_topicSelected(nodes);
+      console.log("selected " + nodes);
       console.log("selected " + model.topicSelected);
     },
   };

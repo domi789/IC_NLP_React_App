@@ -1,13 +1,13 @@
 function collect_topics(data, minScore) {
-  const nodes = [];
+  const topics = [];
   data
     .filter((f) => minScore === undefined || f["NA."] >= minScore)
     .forEach((element) => {
-      const topics = element.topics;
-      if (nodes.includes(topics)) return;
-      nodes.push(topics);
+      const topic = element.topics;
+      if (topics.includes(topic)) return;
+      topics.push(topic);
     });
-  return nodes;
+  return topics;
 }
 
 export function convert_to_nodes_cardItem(cardItem) {
@@ -32,12 +32,16 @@ export function convert_to_nodes(data) {
       label: v,
       title: v,
       text_ids: collect_text_ids_for_topics(data, v),
+      scores: collect_scores_for_topics(data, v),
     };
   });
 }
 
 function collect_text_ids_for_topics(data, topic) {
   return data.filter((v) => v.topics === topic).map((v) => v.texts_id);
+}
+function collect_scores_for_topics(data, topic) {
+  return data.filter((v) => v.topics === topic).map((v) => v["NA."]);
 }
 
 export function collect_edges(nodes) {
