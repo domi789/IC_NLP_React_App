@@ -3,57 +3,6 @@ import { observer } from "mobx-react-lite";
 import React from "react";
 import Graph from "react-graph-vis";
 
-// const graph = {
-//   nodes: [
-//     {
-//       id: 1,
-//       label: "Node 1",
-//       title: "node 1 tootip text",
-//       level: 2,
-//     },
-//     {
-//       id: 2,
-//       label: "Node 2",
-//       title: "node 2 tootip text",
-//       level: 1,
-//     },
-//     {
-//       id: 3,
-//       label: "Node 3",
-//       title: "node 3 tootip text",
-//       level: 3,
-//       shape: "circle",
-//       color: {
-//         border: "#E3E3E3",
-//         background: "#F6F6F6",
-//         highlight: {
-//           border: "#E3E3E3",
-//           background: "#F6F6F6",
-//         },
-//       },
-//       font: "0px",
-//     },
-//     {
-//       id: 4,
-//       label: "Node 4",
-//       title: "node 4 tootip text",
-//       level: 2,
-//     },
-//     {
-//       id: 5,
-//       label: "Node 5",
-//       title: "node 5 tootip text",
-//       level: 2,
-//     },
-//   ],
-//   edges: [
-//     { from: 1, to: 2 },
-//     { from: 1, to: 3 },
-//     { from: 2, to: 4 },
-//     { from: 2, to: 5 },
-//   ],
-// };
-
 const options = {
   layout: {
     hierarchical: false,

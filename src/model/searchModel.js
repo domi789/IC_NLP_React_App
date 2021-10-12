@@ -63,7 +63,6 @@ class SearchModel {
     this.categories[element.target.value - 1].checked = element.target.checked;
     this.updateCardItems();
     this.updateReadTimeSelection();
-    // this.update_topicNodes();
   }
   updateCardItems() {
     this.cardInfos = updateCardItemInfos_AND(
@@ -89,13 +88,11 @@ class SearchModel {
     this.updateSearchText("");
     this.updateCardItems();
     this.updateReadTimeSelection();
-    // this.update_topicNodes();
   }
   remove_searchText_from_searchArray(val) {
     this.searchArray = this.searchArray.filter((item) => item !== val);
     this.updateCardItems();
     this.updateReadTimeSelection();
-    // this.update_topicNodes();
   }
   split_searchText_to_searchArray() {
     this.searchArray = this.searchText
@@ -104,22 +101,13 @@ class SearchModel {
       .split(" ");
     this.updateCardItems();
     this.updateReadTimeSelection();
-    // this.update_topicNodes();
   }
   remove_searchText_from_searchInput() {
     this.updateSearchText("");
     this.updateSearchArray([]);
     this.updateCardItems();
     this.updateReadTimeSelection();
-    // this.update_topicNodes();
   }
-  // update_topicNodes() {
-  //   this.topicNodes = convert_to_nodes_cardItem(this.cardInfos);
-  //   this.update_topicEdges();
-  // }
-  // update_topicEdges() {
-  //   this.topicEdges = collect_edges(this.topicNodes, 0.0001);
-  // }
 
   update_topicSelected(newTopicId) {
     // nodes: array of the selected ids
