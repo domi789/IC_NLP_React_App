@@ -2,13 +2,11 @@ import React from "react";
 import {
   AppBar,
   Button,
-  Dialog,
-  DialogActions,
-  DialogContent,
   IconButton,
   InputBase,
   Toolbar,
   Typography,
+  withStyles,
 } from "@material-ui/core";
 import { customStylesLayout } from "../css/MaterialUi_CSS";
 import { format } from "date-fns";
@@ -19,16 +17,11 @@ import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import { observer } from "mobx-react-lite";
 import SelectTextCategory from "./SelectTextCategory";
 
+import Menu from "@material-ui/core/Menu";
+import MenuItem from "@material-ui/core/MenuItem";
+
 const Layout = observer(({ children, model }) => {
   const classes = customStylesLayout();
-  const [open, setOpen] = React.useState(false);
-  const handleClickOpen = () => {
-    setOpen(true);
-  };
-
-  const handleClose = () => {
-    setOpen(false);
-  };
 
   const onSubmitHandler = (e) => {
     // prevents refresh of page if enter is pressed
@@ -36,6 +29,16 @@ const Layout = observer(({ children, model }) => {
     if (model.searchText) {
       model.split_searchText_to_searchArray();
     }
+  };
+
+  const [anchorEl, setAnchorEl] = React.useState(null);
+
+  const handleClick = (event) => {
+    setAnchorEl(event.currentTarget);
+  };
+
+  const handleClose = () => {
+    setAnchorEl(null);
   };
 
   return (
@@ -69,7 +72,7 @@ const Layout = observer(({ children, model }) => {
                         size="small"
                         disableFocusRipple
                         disableRipple
-                        onClick={handleClickOpen}
+                        onClick={handleClick}
                       >
                         <Typography variant="body2">Kategorie</Typography>
 
@@ -81,18 +84,21 @@ const Layout = observer(({ children, model }) => {
               </form>
             </div>
           </div>
-          <Dialog open={open} onClose={handleClose}>
-            <DialogContent>
-              <form>
-                <SelectTextCategory model={model} />
-              </form>
-            </DialogContent>
-            <DialogActions>
-              <Button onClick={handleClose} color="secondary">
-                Ok
-              </Button>
-            </DialogActions>
-          </Dialog>
+          <StyledMenu
+            id="customized-menu"
+            anchorEl={anchorEl}
+            keepMounted
+            open={Boolean(anchorEl)}
+            onClose={handleClose}
+          >
+            <form>
+              <SelectTextCategory model={model} />
+            </form>
+            <Button onClick={handleClose} color="secondary">
+              Ok
+            </Button>
+          </StyledMenu>
+
           <Typography className={classes.date}>
             {format(new Date(), "dd MMMM Y")}
           </Typography>
@@ -104,3 +110,36 @@ const Layout = observer(({ children, model }) => {
 });
 
 export default Layout;
+
+const StyledMenu = withStyles({
+  paper: {
+    border: "1px solid #E3E3E3",
+    padding: 10,
+    paddingLeft: 15,
+  },
+})((props) => (
+  <Menu
+    elevation={0}
+    getContentAnchorEl={null}
+    anchorOrigin={{
+      vertical: "bottom",
+      horizontal: "center",
+    }}
+    transformOrigin={{
+      vertical: "top",
+      horizontal: "center",
+    }}
+    {...props}
+  />
+));
+
+const StyledMenuItem = withStyles((theme) => ({
+  root: {
+    "&:focus": {
+      backgroundColor: theme.palette.primary.main,
+      "& .MuiListItemIcon-root, & .MuiListItemText-primary": {
+        color: theme.palette.common.white,
+      },
+    },
+  },
+}))(MenuItem);

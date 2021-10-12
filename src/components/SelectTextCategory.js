@@ -16,10 +16,7 @@ const SelectTextCategory = observer(({ model }) => {
   };
 
   return (
-    <div className={classes.field}>
-      <Typography variant="body1" gutterBottom>
-        Text Kategories
-      </Typography>
+    <div>
       <FormGroup>
         {model.categories.map((c) => (
           <FormControlLabel
