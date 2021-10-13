@@ -1,4 +1,5 @@
 import { makeAutoObservable } from "mobx";
+import moment from "moment";
 import db from "../backend/jsons/db.js";
 import { get_filtered_cardItemInfos } from "../functions/get_filtered_cardItemInfos";
 import {
@@ -8,7 +9,6 @@ import {
 } from "../functions/helper_functions.js";
 import {
   collect_edges,
-  convert_to_nodes,
   convert_to_nodes_cardItem,
 } from "../functions/topic_network_functions";
 
@@ -30,23 +30,39 @@ class SearchModel {
   );
 
   readTimeTotal = db.texts.reduce((acc, t) => acc + t.readtime, 0);
-  readTimeSelection = this.cardInfos.reduce(
-    (acc, c) => acc + c.texts[0].readtime,
-    0
-  );
-  readTimeProzent = Math.round(
-    (this.readTimeSelection / this.readTimeTotal) * 100
-  );
+  get readTimeSelection() {
+    return this.filteredCardInfos.reduce(
+      (acc, c) => acc + c.texts[0].readtime,
+      0
+    );
+  }
+
+  get readTimeProzent() {
+    return Math.round((this.readTimeSelection / this.readTimeTotal) * 100);
+  }
 
   get topicNodes() {
-    return convert_to_nodes_cardItem(this.cardInfos);
+    return convert_to_nodes_cardItem(this.filteredCardInfos);
   }
   get topicEdges() {
     return collect_edges(this.topicNodes);
   }
 
+  get filteredCardInfos() {
+    return this.cardInfos.filter((c) => {
+      const d = moment(c.texts[0].insert_dt);
+      const s = this.dateConfigStart;
+      const e = this.dateConfigEnd;
+      return (s === undefined && e === undefined) || (s <= d && e >= d);
+    });
+  }
+
   // need to use same spelling as in update_topicSelected()-function below
   topicSelected = [];
+
+  dateConfigSelected = 0;
+  dateConfigStart = undefined;
+  dateConfigEnd = undefined;
 
   constructor() {
     makeAutoObservable(this);
@@ -62,7 +78,6 @@ class SearchModel {
   updateSelectedCategories(element) {
     this.categories[element.target.value - 1].checked = element.target.checked;
     this.updateCardItems();
-    this.updateReadTimeSelection();
   }
   updateCardItems() {
     this.cardInfos = updateCardItemInfos_AND(
@@ -71,28 +86,14 @@ class SearchModel {
       this.searchArray
     );
   }
-  updateReadTimeSelection() {
-    this.readTimeSelection = this.cardInfos.reduce(
-      (acc, c) => acc + c.texts[0].readtime,
-      0
-    );
-    this.updateReadTimeProzent();
-  }
-  updateReadTimeProzent() {
-    this.readTimeProzent = Math.round(
-      (this.readTimeSelection / this.readTimeTotal) * 100
-    );
-  }
   add_searchText_to_searchArray() {
     this.searchArray.push(this.searchText);
     this.updateSearchText("");
     this.updateCardItems();
-    this.updateReadTimeSelection();
   }
   remove_searchText_from_searchArray(val) {
     this.searchArray = this.searchArray.filter((item) => item !== val);
     this.updateCardItems();
-    this.updateReadTimeSelection();
   }
   split_searchText_to_searchArray() {
     this.searchArray = this.searchText
@@ -100,18 +101,22 @@ class SearchModel {
       .replace(";", "")
       .split(" ");
     this.updateCardItems();
-    this.updateReadTimeSelection();
   }
   remove_searchText_from_searchInput() {
     this.updateSearchText("");
     this.updateSearchArray([]);
     this.updateCardItems();
-    this.updateReadTimeSelection();
   }
 
   update_topicSelected(newTopicId) {
-    // nodes: array of the selected ids
+    // nodes: is an array of the selected ids
     this.topicSelected = newTopicId;
+  }
+
+  update_dateConfigSelected(i, s, e) {
+    this.dateConfigSelected = i;
+    this.dateConfigStart = s;
+    this.dateConfigEnd = e;
   }
 }
 

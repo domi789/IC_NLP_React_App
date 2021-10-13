@@ -6,18 +6,16 @@ import {
 } from "@material-ui/core";
 import { observer } from "mobx-react-lite";
 import React from "react";
-import { customStylesSearchBox } from "../css/MaterialUi_CSS";
 
 const SelectTextCategory = observer(({ model }) => {
-  const classes = customStylesSearchBox();
-
   const onChangeHandler = (e) => {
     model.updateSelectedCategories(e);
   };
 
   return (
-    <div>
-      <FormGroup>
+    <>
+      <Typography variant="body2">Kategorien</Typography>
+      <FormGroup row>
         {model.categories.map((c) => (
           <FormControlLabel
             key={c.kind_id}
@@ -30,11 +28,11 @@ const SelectTextCategory = observer(({ model }) => {
                 size="small"
               />
             }
-            label={c.kind_name}
+            label={<Typography variant="body2">{c.kind_name}</Typography>}
           />
         ))}
       </FormGroup>
-    </div>
+    </>
   );
 });
 

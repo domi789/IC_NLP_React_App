@@ -3,6 +3,53 @@ import { observer } from "mobx-react-lite";
 import React from "react";
 import Graph from "react-graph-vis";
 
+const TopicsGraph = observer(({ model }) => {
+  const graph = {
+    nodes: model.topicNodes,
+    edges: model.topicEdges,
+  };
+
+  const events = {
+    select: function (event) {
+      var { nodes, edges } = event;
+      model.update_topicSelected(nodes);
+      console.log("selected " + nodes);
+      console.log("selected " + model.topicSelected);
+    },
+  };
+
+  return (
+    <Paper
+      style={{
+        marginTop: "65px",
+        marginLeft: "30px",
+        paddingTop: "5px",
+        paddingBottom: "5px",
+      }}
+    >
+      <Typography
+        variant="h6"
+        color="textSecondary"
+        style={{
+          paddingLeft: "10px",
+        }}
+      >
+        Topic Netzwerk
+      </Typography>
+      <Divider style={{ margin: "10px" }} />
+      <Graph
+        graph={graph}
+        options={options}
+        events={events}
+        // getNetwork={(network) => {}}
+        style={{ margin: "10px" }}
+      />
+    </Paper>
+  );
+});
+
+export default TopicsGraph;
+
 const options = {
   layout: {
     hierarchical: false,
@@ -53,50 +100,3 @@ const options = {
     enabled: false,
   },
 };
-
-const TopicsGraph = observer(({ model }) => {
-  const graph = {
-    nodes: model.topicNodes,
-    edges: model.topicEdges,
-  };
-
-  const events = {
-    select: function (event) {
-      var { nodes, edges } = event;
-      model.update_topicSelected(nodes);
-      console.log("selected " + nodes);
-      console.log("selected " + model.topicSelected);
-    },
-  };
-
-  return (
-    <Paper
-      style={{
-        marginTop: "65px",
-        marginLeft: "30px",
-        paddingTop: "5px",
-        paddingBottom: "5px",
-      }}
-    >
-      <Typography
-        variant="h6"
-        color="textSecondary"
-        style={{
-          paddingLeft: "10px",
-        }}
-      >
-        Topic Netzwerk
-      </Typography>
-      <Divider style={{ margin: "10px" }} />
-      <Graph
-        graph={graph}
-        options={options}
-        events={events}
-        // getNetwork={(network) => {}}
-        style={{ margin: "10px" }}
-      />
-    </Paper>
-  );
-});
-
-export default TopicsGraph;
